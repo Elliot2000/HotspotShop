@@ -1,214 +1,799 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\697f71c0c12135256cbfe98df498a7e4\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\790f80b0a374f6f7b6b7fe370fefbffc\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\61965e5c06bda9445c13760f9d9ef779\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ceb81553a8d4d1147c847656f2ca2121\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\62ec569ca307aebf19eb528ff2a14917\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9533afcfb379d63fb97295e8fded06a\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ad7ca255c09497412a7a01f403ddd6c0\lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\03b6edd881408c681ec3ca24f0393ef7\activity-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\867e3d51a76e05895e9b3a3c44f084b7\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\a548e5d16bfd241ee3b8086d51bf6a56\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\9cfd916484f85a7c5046ca3963e5c069\lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e8fcc2415b8b0ba957b309bd060d0497\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4cee4734b336f81c686d6e7b16dafec9\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\8ede11fcab21498f1a0c92e4e5245cc2\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8e397e8266a177f0d7a6cb1c8358bfc9/play-services-11.0.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e7e97132f9c32ea1ccc3de8f6277834d/jetified-play-services-cast-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3e7ae1b1626c7701cc1e2ba78fc8462/mediarouter-1.0.0-alpha5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/697f71c0c12135256cbfe98df498a7e4/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-awareness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/17c9795922c27eedf7a44bc929439a8d/jetified-play-services-awareness-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-places:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7044a7b781988d3ef461bb406e785ad/jetified-play-services-places-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/de3b259e1070413406571c5850de1f5d/jetified-play-services-wallet-11.0.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:16:1-25:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/61965e5c06bda9445c13760f9d9ef779/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ec66745bd7c403b6312c05c1c3de93d9/jetified-play-services-ads-11.0.0/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ffdb37d676034298e1f363733bab8ee0/jetified-play-services-tagmanager-11.0.0/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b08e892dd9a92e13ecfbea5173778da1/jetified-play-services-tagmanager-v4-impl-11.0.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2c026b54f97899384c57908ef8a747a0/jetified-play-services-auth-api-phone-11.0.0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/23da8520c5787fc642686489cc17a754/jetified-play-services-auth-base-11.0.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10229722a53fe739fea8d643a5ee39c4/jetified-play-services-clearcut-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-config:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6d9d9013d04714aaa6376a08007149f2/jetified-firebase-config-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/32a547a6f55af7596c06eb9aaebf0fa9/jetified-play-services-games-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d7efcb84c479e1065c72d48052e72510/jetified-play-services-drive-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3b4cc497fbef75c5d2d8acab2910783d/jetified-firebase-auth-11.0.0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b368f1bc4ef59bd97ecaab340ee8d81a/jetified-firebase-dynamic-links-11.0.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a315d48fe6aef07c4e948f0d9419d8d/jetified-play-services-fitness-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/bd50870942fc8f1e592fa82ff3cb92c1/jetified-firebase-appindexing-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-identity:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ee2382d80726495bff65fc523538548f/play-services-identity-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b16a761e0da1165b1a9e5810e746ce8/jetified-play-services-instantapps-11.0.0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/af3a0f626ceea377725df814411fd829/jetified-play-services-location-11.0.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-nearby:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/048a54d2b154676fc98574137bb48a25/jetified-play-services-nearby-11.0.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fd846d687ff69079420f8673aedb09e4/play-services-panorama-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d4ec856eaddf8bdf64c87c19c3e63f46/jetified-play-services-plus-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/905ea7d5a979b12fccb0ce6498de4663/jetified-play-services-safetynet-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37c5920fc2a8a8ee40721e2071ffff36/play-services-vision-11.0.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8d252904a8452f2ce8726892376a17c5/jetified-play-services-vision-common-11.0.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6bc1ee1dd3ed18463b60efd961e43ab1/jetified-play-services-wearable-11.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.firebase:firebase-crash:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/13f8237feb644a66bc363f6edfab6e7e/jetified-firebase-crash-11.0.0/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9a03ca738d6abed733c9aaa4ea8db249/jetified-firebase-database-11.0.0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/646d8124faee61e0ac0832436df55c92/firebase-database-connection-11.0.0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-storage:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a7d96af92c40e85adc7afd20f014977/jetified-firebase-storage-11.0.0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/942a9ec0bb8657737b8bfd340cef3901/jetified-firebase-storage-common-11.0.0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9d5ff535817cc892284d1b7761e446da/play-services-gass-11.0.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/56b99ce0ae7cca18cd26b19f7dc7cc90/jetified-play-services-tasks-11.0.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:16:1-23:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0-rc01] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3422103851ebf4f80d7419e62222e7d/palette-1.0.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/62ec569ca307aebf19eb528ff2a14917/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9533afcfb379d63fb97295e8fded06a/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ad7ca255c09497412a7a01f403ddd6c0/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media2:media2:1.0.0-alpha02] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ad22ffbe49d95a1b32f36328c8f73eff/media2-1.0.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a548e5d16bfd241ee3b8086d51bf6a56/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9cfd916484f85a7c5046ca3963e5c069/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:3:5-53
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:1-29:12
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/048a54d2b154676fc98574137bb48a25/jetified-play-services-nearby-11.0.0/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/048a54d2b154676fc98574137bb48a25/jetified-play-services-nearby-11.0.0/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:12:22-76
 application
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:5:5-27:19
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\790f80b0a374f6f7b6b7fe370fefbffc\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\790f80b0a374f6f7b6b7fe370fefbffc\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:15:5-53:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8e397e8266a177f0d7a6cb1c8358bfc9/play-services-11.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8e397e8266a177f0d7a6cb1c8358bfc9/play-services-11.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e7e97132f9c32ea1ccc3de8f6277834d/jetified-play-services-cast-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e7e97132f9c32ea1ccc3de8f6277834d/jetified-play-services-cast-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/17c9795922c27eedf7a44bc929439a8d/jetified-play-services-awareness-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/17c9795922c27eedf7a44bc929439a8d/jetified-play-services-awareness-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7044a7b781988d3ef461bb406e785ad/jetified-play-services-places-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7044a7b781988d3ef461bb406e785ad/jetified-play-services-places-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b08e892dd9a92e13ecfbea5173778da1/jetified-play-services-tagmanager-v4-impl-11.0.0/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b08e892dd9a92e13ecfbea5173778da1/jetified-play-services-tagmanager-v4-impl-11.0.0/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10229722a53fe739fea8d643a5ee39c4/jetified-play-services-clearcut-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10229722a53fe739fea8d643a5ee39c4/jetified-play-services-clearcut-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6d9d9013d04714aaa6376a08007149f2/jetified-firebase-config-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6d9d9013d04714aaa6376a08007149f2/jetified-firebase-config-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/32a547a6f55af7596c06eb9aaebf0fa9/jetified-play-services-games-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/32a547a6f55af7596c06eb9aaebf0fa9/jetified-play-services-games-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d7efcb84c479e1065c72d48052e72510/jetified-play-services-drive-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d7efcb84c479e1065c72d48052e72510/jetified-play-services-drive-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3b4cc497fbef75c5d2d8acab2910783d/jetified-firebase-auth-11.0.0/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3b4cc497fbef75c5d2d8acab2910783d/jetified-firebase-auth-11.0.0/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b368f1bc4ef59bd97ecaab340ee8d81a/jetified-firebase-dynamic-links-11.0.0/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b368f1bc4ef59bd97ecaab340ee8d81a/jetified-firebase-dynamic-links-11.0.0/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-fitness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a315d48fe6aef07c4e948f0d9419d8d/jetified-play-services-fitness-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a315d48fe6aef07c4e948f0d9419d8d/jetified-play-services-fitness-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/bd50870942fc8f1e592fa82ff3cb92c1/jetified-firebase-appindexing-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/bd50870942fc8f1e592fa82ff3cb92c1/jetified-firebase-appindexing-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ee2382d80726495bff65fc523538548f/play-services-identity-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ee2382d80726495bff65fc523538548f/play-services-identity-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/af3a0f626ceea377725df814411fd829/jetified-play-services-location-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/af3a0f626ceea377725df814411fd829/jetified-play-services-location-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/048a54d2b154676fc98574137bb48a25/jetified-play-services-nearby-11.0.0/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/048a54d2b154676fc98574137bb48a25/jetified-play-services-nearby-11.0.0/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fd846d687ff69079420f8673aedb09e4/play-services-panorama-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fd846d687ff69079420f8673aedb09e4/play-services-panorama-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d4ec856eaddf8bdf64c87c19c3e63f46/jetified-play-services-plus-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d4ec856eaddf8bdf64c87c19c3e63f46/jetified-play-services-plus-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/905ea7d5a979b12fccb0ce6498de4663/jetified-play-services-safetynet-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/905ea7d5a979b12fccb0ce6498de4663/jetified-play-services-safetynet-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37c5920fc2a8a8ee40721e2071ffff36/play-services-vision-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37c5920fc2a8a8ee40721e2071ffff36/play-services-vision-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8d252904a8452f2ce8726892376a17c5/jetified-play-services-vision-common-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8d252904a8452f2ce8726892376a17c5/jetified-play-services-vision-common-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6bc1ee1dd3ed18463b60efd961e43ab1/jetified-play-services-wearable-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6bc1ee1dd3ed18463b60efd961e43ab1/jetified-play-services-wearable-11.0.0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.firebase:firebase-crash:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/13f8237feb644a66bc363f6edfab6e7e/jetified-firebase-crash-11.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/13f8237feb644a66bc363f6edfab6e7e/jetified-firebase-crash-11.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9d5ff535817cc892284d1b7761e446da/play-services-gass-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9d5ff535817cc892284d1b7761e446da/play-services-gass-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/56b99ce0ae7cca18cd26b19f7dc7cc90/jetified-play-services-tasks-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/56b99ce0ae7cca18cd26b19f7dc7cc90/jetified-play-services-tasks-11.0.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:19:5-21:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.softwareengineeringproject.PickerScreenMain
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:12:9-15:68
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:21:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:31:9-33:55
+	android:value
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:33:13-52
+	android:name
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:32:13-58
+activity#com.example.softwareengineeringproject.MapsActivity
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:35:9-37:68
 	android:label
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:14:13-70
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:36:13-41
+activity#com.example.softwareengineeringproject.PickerScreenMain
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:38:9-41:59
+	android:label
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:40:13-70
 	android:theme
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:13:13-45
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:39:13-45
 activity#com.example.softwareengineeringproject.MainActivity
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:42:9-48:20
 	android:name
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:42:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:46:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:24:9-26:57
+ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:50:9-52:57
 	android:resource
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:26:13-54
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:52:13-54
 	android:name
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml:25:13-43
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml:51:13-43
 uses-sdk
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\697f71c0c12135256cbfe98df498a7e4\appcompat-1.0.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\697f71c0c12135256cbfe98df498a7e4\appcompat-1.0.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\790f80b0a374f6f7b6b7fe370fefbffc\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\790f80b0a374f6f7b6b7fe370fefbffc\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\61965e5c06bda9445c13760f9d9ef779\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\61965e5c06bda9445c13760f9d9ef779\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ceb81553a8d4d1147c847656f2ca2121\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ceb81553a8d4d1147c847656f2ca2121\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\62ec569ca307aebf19eb528ff2a14917\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\62ec569ca307aebf19eb528ff2a14917\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9533afcfb379d63fb97295e8fded06a\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9533afcfb379d63fb97295e8fded06a\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ad7ca255c09497412a7a01f403ddd6c0\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\ad7ca255c09497412a7a01f403ddd6c0\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\03b6edd881408c681ec3ca24f0393ef7\activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\03b6edd881408c681ec3ca24f0393ef7\activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\867e3d51a76e05895e9b3a3c44f084b7\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\867e3d51a76e05895e9b3a3c44f084b7\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\a548e5d16bfd241ee3b8086d51bf6a56\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\a548e5d16bfd241ee3b8086d51bf6a56\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\9cfd916484f85a7c5046ca3963e5c069\lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\9cfd916484f85a7c5046ca3963e5c069\lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e8fcc2415b8b0ba957b309bd060d0497\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\e8fcc2415b8b0ba957b309bd060d0497\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4cee4734b336f81c686d6e7b16dafec9\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\4cee4734b336f81c686d6e7b16dafec9\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\8ede11fcab21498f1a0c92e4e5245cc2\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\8ede11fcab21498f1a0c92e4e5245cc2\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8e397e8266a177f0d7a6cb1c8358bfc9/play-services-11.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8e397e8266a177f0d7a6cb1c8358bfc9/play-services-11.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e7e97132f9c32ea1ccc3de8f6277834d/jetified-play-services-cast-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e7e97132f9c32ea1ccc3de8f6277834d/jetified-play-services-cast-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3e7ae1b1626c7701cc1e2ba78fc8462/mediarouter-1.0.0-alpha5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3e7ae1b1626c7701cc1e2ba78fc8462/mediarouter-1.0.0-alpha5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/697f71c0c12135256cbfe98df498a7e4/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/697f71c0c12135256cbfe98df498a7e4/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-awareness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/17c9795922c27eedf7a44bc929439a8d/jetified-play-services-awareness-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/17c9795922c27eedf7a44bc929439a8d/jetified-play-services-awareness-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7044a7b781988d3ef461bb406e785ad/jetified-play-services-places-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c7044a7b781988d3ef461bb406e785ad/jetified-play-services-places-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/de3b259e1070413406571c5850de1f5d/jetified-play-services-wallet-11.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/de3b259e1070413406571c5850de1f5d/jetified-play-services-wallet-11.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:23:5-43
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/61965e5c06bda9445c13760f9d9ef779/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/61965e5c06bda9445c13760f9d9ef779/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ec66745bd7c403b6312c05c1c3de93d9/jetified-play-services-ads-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ec66745bd7c403b6312c05c1c3de93d9/jetified-play-services-ads-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ffdb37d676034298e1f363733bab8ee0/jetified-play-services-tagmanager-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ffdb37d676034298e1f363733bab8ee0/jetified-play-services-tagmanager-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b08e892dd9a92e13ecfbea5173778da1/jetified-play-services-tagmanager-v4-impl-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b08e892dd9a92e13ecfbea5173778da1/jetified-play-services-tagmanager-v4-impl-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2c026b54f97899384c57908ef8a747a0/jetified-play-services-auth-api-phone-11.0.0/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2c026b54f97899384c57908ef8a747a0/jetified-play-services-auth-api-phone-11.0.0/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/23da8520c5787fc642686489cc17a754/jetified-play-services-auth-base-11.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/23da8520c5787fc642686489cc17a754/jetified-play-services-auth-base-11.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10229722a53fe739fea8d643a5ee39c4/jetified-play-services-clearcut-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10229722a53fe739fea8d643a5ee39c4/jetified-play-services-clearcut-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6d9d9013d04714aaa6376a08007149f2/jetified-firebase-config-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6d9d9013d04714aaa6376a08007149f2/jetified-firebase-config-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/32a547a6f55af7596c06eb9aaebf0fa9/jetified-play-services-games-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/32a547a6f55af7596c06eb9aaebf0fa9/jetified-play-services-games-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d7efcb84c479e1065c72d48052e72510/jetified-play-services-drive-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d7efcb84c479e1065c72d48052e72510/jetified-play-services-drive-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3b4cc497fbef75c5d2d8acab2910783d/jetified-firebase-auth-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3b4cc497fbef75c5d2d8acab2910783d/jetified-firebase-auth-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b368f1bc4ef59bd97ecaab340ee8d81a/jetified-firebase-dynamic-links-11.0.0/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b368f1bc4ef59bd97ecaab340ee8d81a/jetified-firebase-dynamic-links-11.0.0/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-fitness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a315d48fe6aef07c4e948f0d9419d8d/jetified-play-services-fitness-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a315d48fe6aef07c4e948f0d9419d8d/jetified-play-services-fitness-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/bd50870942fc8f1e592fa82ff3cb92c1/jetified-firebase-appindexing-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/bd50870942fc8f1e592fa82ff3cb92c1/jetified-firebase-appindexing-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ee2382d80726495bff65fc523538548f/play-services-identity-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ee2382d80726495bff65fc523538548f/play-services-identity-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b16a761e0da1165b1a9e5810e746ce8/jetified-play-services-instantapps-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b16a761e0da1165b1a9e5810e746ce8/jetified-play-services-instantapps-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/af3a0f626ceea377725df814411fd829/jetified-play-services-location-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/af3a0f626ceea377725df814411fd829/jetified-play-services-location-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/048a54d2b154676fc98574137bb48a25/jetified-play-services-nearby-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/048a54d2b154676fc98574137bb48a25/jetified-play-services-nearby-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fd846d687ff69079420f8673aedb09e4/play-services-panorama-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fd846d687ff69079420f8673aedb09e4/play-services-panorama-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d4ec856eaddf8bdf64c87c19c3e63f46/jetified-play-services-plus-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d4ec856eaddf8bdf64c87c19c3e63f46/jetified-play-services-plus-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/905ea7d5a979b12fccb0ce6498de4663/jetified-play-services-safetynet-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/905ea7d5a979b12fccb0ce6498de4663/jetified-play-services-safetynet-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37c5920fc2a8a8ee40721e2071ffff36/play-services-vision-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37c5920fc2a8a8ee40721e2071ffff36/play-services-vision-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8d252904a8452f2ce8726892376a17c5/jetified-play-services-vision-common-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8d252904a8452f2ce8726892376a17c5/jetified-play-services-vision-common-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6bc1ee1dd3ed18463b60efd961e43ab1/jetified-play-services-wearable-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/6bc1ee1dd3ed18463b60efd961e43ab1/jetified-play-services-wearable-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:22:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/13f8237feb644a66bc363f6edfab6e7e/jetified-firebase-crash-11.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/13f8237feb644a66bc363f6edfab6e7e/jetified-firebase-crash-11.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9a03ca738d6abed733c9aaa4ea8db249/jetified-firebase-database-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9a03ca738d6abed733c9aaa4ea8db249/jetified-firebase-database-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/646d8124faee61e0ac0832436df55c92/firebase-database-connection-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/646d8124faee61e0ac0832436df55c92/firebase-database-connection-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a7d96af92c40e85adc7afd20f014977/jetified-firebase-storage-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8a7d96af92c40e85adc7afd20f014977/jetified-firebase-storage-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/942a9ec0bb8657737b8bfd340cef3901/jetified-firebase-storage-common-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/942a9ec0bb8657737b8bfd340cef3901/jetified-firebase-storage-common-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9d5ff535817cc892284d1b7761e446da/play-services-gass-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9d5ff535817cc892284d1b7761e446da/play-services-gass-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/56b99ce0ae7cca18cd26b19f7dc7cc90/jetified-play-services-tasks-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/56b99ce0ae7cca18cd26b19f7dc7cc90/jetified-play-services-tasks-11.0.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:17:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0-rc01] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3422103851ebf4f80d7419e62222e7d/palette-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0-rc01] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3422103851ebf4f80d7419e62222e7d/palette-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/62ec569ca307aebf19eb528ff2a14917/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/62ec569ca307aebf19eb528ff2a14917/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9533afcfb379d63fb97295e8fded06a/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9533afcfb379d63fb97295e8fded06a/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ad7ca255c09497412a7a01f403ddd6c0/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ad7ca255c09497412a7a01f403ddd6c0/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media2:media2:1.0.0-alpha02] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ad22ffbe49d95a1b32f36328c8f73eff/media2-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media2:media2:1.0.0-alpha02] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/ad22ffbe49d95a1b32f36328c8f73eff/media2-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a548e5d16bfd241ee3b8086d51bf6a56/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/a548e5d16bfd241ee3b8086d51bf6a56/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9cfd916484f85a7c5046ca3963e5c069/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/9cfd916484f85a7c5046ca3963e5c069/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mich\AndroidStudioProjects\SoftwareEngineeringProject\app\src\main\AndroidManifest.xml
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Stapletons/Downloads/HotspotShop-master/app/src/main/AndroidManifest.xml
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:5:9-99
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mich\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/09cedb5b7597c06be7b46d42af899afe/jetified-play-services-cast-framework-11.0.0/AndroidManifest.xml:7:18-90
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/13f8237feb644a66bc363f6edfab6e7e/jetified-firebase-crash-11.0.0/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/13f8237feb644a66bc363f6edfab6e7e/jetified-firebase-crash-11.0.0/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:20:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5fe5a7d157eb9487a136ea75e82ccefe/jetified-play-services-maps-11.0.0/AndroidManifest.xml:21:52-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d20df2bbc7ed7123496d3005dee38da7/jetified-play-services-analytics-impl-11.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/e830abba2cdcf5ac7ea3aaf5afb28879/jetified-play-services-analytics-11.0.0/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:20:19-50
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/d03b040033125ac5a345e01b24e4ab62/jetified-play-services-appinvite-11.0.0/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/f573302a7a0122352c942a3484524836/jetified-play-services-auth-11.0.0/AndroidManifest.xml:24:18-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4c9d2df44737078d29e37cf84253bf20/play-services-iid-11.0.0/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5b6e23c431968d8693e1f10c88b5ea70/jetified-play-services-gcm-11.0.0/AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/10fecf3940539ea8f2f9fd94d5376d1a/jetified-play-services-base-11.0.0/AndroidManifest.xml:19:19-85
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/c9bc463fb4f36727ace7dbeb09a97776/jetified-play-services-ads-lite-11.0.0/AndroidManifest.xml:25:19-71
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/2f565d936d32decc4357c9a881668b03/jetified-firebase-messaging-11.0.0/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:25:19-93
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:26:13-31:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.example.softwareengineeringproject
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/164bfd6cc286aaa13f662d06fcca2ba5/jetified-play-services-tagmanager-api-11.0.0/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/4cd54d3449316cdf157b957f9ac007c0/jetified-firebase-analytics-impl-11.0.0/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/68aa5e849198fd1cb55186f156508116/jetified-firebase-analytics-11.0.0/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:24:17-71
+permission#com.example.softwareengineeringproject.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:26:22-76
+uses-permission#com.example.softwareengineeringproject.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.softwareengineeringproject
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:33:27-58
+category#com.example.softwareengineeringproject
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/5d5b6f0c63c020baefee3eb290f86887/jetified-firebase-iid-11.0.0/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/37f877859bb5c79f0155eb45e7a1dabc/jetified-firebase-common-11.0.0/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/b087d833fed01ad8fe143dea999d9405/jetified-play-services-basement-11.0.0/AndroidManifest.xml:20:20-65
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/Stapletons/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
