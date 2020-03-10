@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         WebView webview1 = new WebView(this);
         setContentView(webview1);
-        webview1.loadUrl("https://pmichal.me/");
+        webview1.loadUrl("https://pmichal.me/HotspotShop/");
         webview1.setWebViewClient(new WebViewClient() {
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 view.loadUrl(request.getUrl().toString());
