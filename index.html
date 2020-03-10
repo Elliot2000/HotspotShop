@@ -2,22 +2,44 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
 <body>
 
 <div class="container">
-    <div class="tab"> Dairy </div>
-    <div class="tab"> Fruits & Veg </div>
-    <div class="tab"> Frozen Food </div>
+    <div class="tab" onclick="openTab(event, 'Dairy', 'DairyUnder')"> Dairy </div>
+    <div class="tab" onclick="openTab(event, 'Fruits', 'FruitsUnder')"> Fruits & Veg </div>
+    <div class="tab" onclick="openTab(event, 'Frozen', 'FrozenUnder')"> Frozen Food </div>
 </div>
 
-<div class="itemContainer">
+<div class="containerUnderline">
+    <div id="DairyUnder" class="tabUnder"></div>
+    <div id="FruitsUnder" class="tabUnder"></div>
+    <div id="FrozenUnder" class="tabUnder"></div>
+</div>
+
+<div id="Dairy" class="itemContainer">
+  <div class="item"> Item Dairy <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
+</div>
+
+<div id="Fruits" class="itemContainer">
+  <div class="item"> Item Fruits <img src="assets/plus.png" /><span>Price</span></div>
+  <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
+  <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
+  <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
+  <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
+  <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
+  <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
+</div>
+
+<div id="Frozen" class="itemContainer">
+  <div class="item"> Item Frozen <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
   <div class="item"> Item <img src="assets/plus.png" /><span>Price</span></div>
