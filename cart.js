@@ -1,0 +1,88 @@
+// Initialising variables needed
+var shopping_cart_pressed = 0;
+var data = {"total":0,"rows":[]};
+var margin = 0;
+var present = false;
+
+$(document).ready(function() {
+
+  // Checking if local storage exists and if it has item called cart
+  if(localStorage && localStorage.getItem('cart')){
+
+    // Declare variables using data in the local storage
+    var cart = localStorage.getItem('cart');
+    var totalItems = parseInt(localStorage.getItem('totalItems'), 10);
+
+    $(".totalCount").text(totalItems);
+
+    // Parse JSON data from local storage so it can be display in the cart and display it in carts
+    var items = JSON.parse(cart);
+    data = items;
+  }else{
+    $(".totalCount").text(0);
+  }
+
+  // If button of the cart is pressed, cart will be showed
+  $( ".cart" ).click(function(event) {
+    // It wasn't pressed before, show it
+    if(shopping_cart_pressed == 0){
+    event.preventDefault();
+    $(".shopping_cart").css("visibility", "visible");
+    $(".basket_icon").css("visibility", "visible");
+    shopping_cart_pressed = 1;
+  }else if(shopping_cart_pressed == 1){
+    // It was pressed before, hide it
+    $(".shopping_cart").css("visibility", "hidden");
+    $(".basket_icon").css("visibility", "hidden");
+    shopping_cart_pressed = 0;
+  }
+  });
+
+
+  // Clears the local storage and refreshers the page
+  $( ".cart_reset_button" ).click(function(event) {
+    localStorage.clear();
+    location.reload();
+  });
+
+  // Gets the name and the price of the item and adds it to the cart as well as updates local storage with it too
+  $( ".action--button" ).click(function(event, source) {
+    present = false;
+    var name = $(this).attr("name_data");
+    addProduct(name);
+    var data_string = JSON.stringify(data);
+    localStorage.setItem("cart", data_string);
+		var cartItems = parseInt($('.totalCount').text(), 10);
+    if (present === false){
+      localStorage.setItem("totalItems", cartItems+1);
+      $(".totalCount").text(localStorage.getItem('totalItems'));
+    }else{
+      present = true;
+    }
+
+  });
+
+});
+
+
+// Function which adds the product to the cart
+function addProduct(name){
+  'use strict';
+  function add(){
+    for(var i=0; i<data.total; i++){
+      var row = data.rows[i];
+      if (row.name === name){
+        // If the name is the same of the product, add one to the quantity instead of adding another product
+        present = true;
+        return;
+      }
+    }
+    // Add one to total and push the changes to the data
+    data.total += 1;
+    data.rows.push({
+      name:name,
+      quantity:1
+    });
+  }
+  add();
+}

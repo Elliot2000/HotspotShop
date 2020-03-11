@@ -72,8 +72,23 @@ h1 {
   display: block;
 }
 
+.item button{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-right: 50px;
+}
+
 .item img{
   width: 30px;
+  height: 30px;
+  float: right;
+  margin-right: 50px;
+}
+
+.item input{
+  width: 30px;
+  height: 30px;
   float: right;
   margin-right: 50px;
 }
