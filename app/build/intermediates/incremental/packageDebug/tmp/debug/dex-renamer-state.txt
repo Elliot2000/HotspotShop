@@ -1,4 +1,4 @@
-#Tue Mar 10 12:40:11 GMT 2020
+#Thu Mar 12 11:03:50 GMT 2020
 base.0=C\:\\Users\\mich\\AndroidStudioProjects\\HotspotShop2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

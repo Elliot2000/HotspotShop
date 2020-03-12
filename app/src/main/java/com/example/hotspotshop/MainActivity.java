@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.webkit.WebResourceRequest;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+        WebSettings webSettings = webview1.getSettings();
+        webSettings.setJavaScriptEnabled(true);
 
 
     }
