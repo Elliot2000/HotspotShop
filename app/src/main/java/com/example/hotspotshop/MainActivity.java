@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
         WebSettings webSettings = webview1.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webSettings.setDomStorageEnabled(true);
 
 
     }
