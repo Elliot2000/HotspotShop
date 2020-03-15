@@ -221,11 +221,11 @@ h1 {
 .overlay{
 	position: fixed;
 	text-align: center;
-	top: 10%;
+	top: 15%;
 	left: 50%;
 	transform: translateX(-50%);
 	height: 7%;
-	width:85%;
+	width:90%;
 	font-family: 'Karla', Arial, Helvetica;
 	border-radius: 3px;
 	display: none;
