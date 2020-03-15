@@ -128,10 +128,10 @@ h1 {
 
 
 .break{
-  height: 100px;
+  height: 60px;
 }
 .break2{
-  height: 50px;
+  height: 30px;
 }
 .supermarketTab{
   display: table-cell;
@@ -173,7 +173,7 @@ h1 {
   display: table;
   table-layout: fixed;
   overflow: auto;
-  width: 70%;
+  width: 85%;
   margin-left: 50%;
   transform: translateX(-50%);
 }
@@ -186,4 +186,31 @@ h1 {
 }
 #TotalCost1, #TotalCost2{
   border-top: 4px solid black;
+}
+
+
+
+.goBack {
+  width: 85%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: #829fb6;
+  color: white;
+  text-align: center;
+  height: 70px;
+}
+.TotalText{
+  font-size: 20px;
+  font-family: Arial;
+}
+.goBackButton {
+  background-color: #677e90;
+  color: white;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  font-family: Arial;
+}
+.goBack a {
+  text-decoration: none;
 }
