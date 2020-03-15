@@ -22,29 +22,6 @@ $(document).ready(function() {
     $(".totalCount").text(0);
   }
 
-  // If button of the cart is pressed, cart will be showed
-  $( ".cart" ).click(function(event) {
-    // It wasn't pressed before, show it
-    if(shopping_cart_pressed == 0){
-    event.preventDefault();
-    $(".shopping_cart").css("visibility", "visible");
-    $(".basket_icon").css("visibility", "visible");
-    shopping_cart_pressed = 1;
-  }else if(shopping_cart_pressed == 1){
-    // It was pressed before, hide it
-    $(".shopping_cart").css("visibility", "hidden");
-    $(".basket_icon").css("visibility", "hidden");
-    shopping_cart_pressed = 0;
-  }
-  });
-
-
-  // Clears the local storage and refreshers the page
-  $( ".cart_reset_button" ).click(function(event) {
-    localStorage.clear();
-    location.reload();
-  });
-
   // Gets the name and the price of the item and adds it to the cart as well as updates local storage with it too
   $( ".action--button" ).click(function(event, source) {
     present = false;

@@ -173,7 +173,7 @@ h1 {
   display: table;
   table-layout: fixed;
   overflow: auto;
-  width: 85%;
+  width: 90%;
   margin-left: 50%;
   transform: translateX(-50%);
 }
@@ -191,7 +191,7 @@ h1 {
 
 
 .goBack {
-  width: 85%;
+  width: 90%;
   margin-left: 50%;
   transform: translateX(-50%);
   background-color: #829fb6;
