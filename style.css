@@ -214,3 +214,36 @@ h1 {
 .goBack a {
   text-decoration: none;
 }
+
+
+
+
+.overlay{
+	position: fixed;
+	text-align: center;
+	top: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 7%;
+	width:70%;
+	font-family: 'Karla', Arial, Helvetica;
+	border-radius: 3px;
+	display: none;
+	z-index: 20;
+  font-size: 25px;
+}
+.overlay{
+	background-color: #d18c83;
+}
+.second_line{
+	background-color: #dfdfdf;
+	height: 100px;
+  font-size: 18px;
+}
+.close{
+	float: right;
+ 	position: relative;
+	margin-right: 10px ;
+	color: white;
+	cursor: pointer;
+}

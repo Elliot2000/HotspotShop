@@ -36,7 +36,25 @@ $(document).ready(function() {
     }else{
       present = true;
     }
+  });
 
+
+  $( ".letsCompare" ).click(function(event, source) {
+    var cartItems = parseInt($('.totalCount').text(), 10);
+    if (cartItems > 0){
+      self.location="comparison.html";
+    }else{
+      $( ".overlay" ).fadeIn( "slow",
+      function() {
+        $( ".overlay" ).delay(5000).fadeOut("slow");
+      });
+      }
+    });
+
+
+  $( ".close" ).click(function(event) {
+    event.preventDefault();
+    $( ".overlay" ).hide();
   });
 
 });
