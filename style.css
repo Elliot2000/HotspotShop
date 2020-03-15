@@ -124,3 +124,66 @@ h1 {
   font-family: arial;
   font-size: 30px;
 }
+
+
+
+.break{
+  height: 100px;
+}
+.break2{
+  height: 50px;
+}
+.supermarketTab{
+  display: table-cell;
+  margin: 0px;
+  padding-top: 20px;
+  height: 50px;
+  background-color: #a2b8cb;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-family: Arial;
+}
+.itemTab{
+  display: table-cell;
+  margin: 0px;
+  padding-top: 20px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+}
+.TotalTab{
+  display: table-cell;
+  margin: 0px;
+  padding-top: 20px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+}
+.itemTab .itemPrice{
+  font-size: 14px;
+}
+.ItemListTitle, .ItemList, .TotalList {
+  display: table;
+  table-layout: fixed;
+  overflow: auto;
+  width: 70%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#Supermarket1{
+  border-right: 2px solid white;
+}
+#Item1{
+  border-right: 2px solid black;
+}
+#TotalCost1, #TotalCost2{
+  border-top: 4px solid black;
+}
