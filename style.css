@@ -54,6 +54,18 @@ h1 {
   display: none;
 }
 
+.itembottom{
+  margin: 0px;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 30px;
+  width: 98%;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  font-family: Arial;
+}
+
 .item{
   margin: 0px;
   margin-top: 10px;
@@ -80,8 +92,8 @@ h1 {
 }
 
 .item img{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   float: right;
   margin-right: 50px;
 }
