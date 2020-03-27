@@ -12,6 +12,17 @@ var apple_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("
 var banana_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/fairtrade-bananas/088903-45703-45704");
 var orange_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/tango-easy-peeler-mandarins/088414-45365-45366");
 var cucumber_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/cucumber/086468-44158-44159");
+var carrots_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/carrots/085125-43221-43222");
+var broccoli_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/broccoli/085242-43323-43324");
+var chips_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/aunt-bessies-crispy-homestyle-chips/042645-21098-21099");
+var york_puddings_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-frozen-12-yorkshire-puddings/694992-98677-98678");
+var marg_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-margherita-pizza/096458-49344-49345");
+var pepp_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-pepperoni-pizza/092923-47761-47762");
+var fish_fingers_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/birds-eye-10-cod-fish-fingers/618561-130834-130835");
+var peas_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-duchy-petits-pois/092908-47755-47756");
+var ice_cream_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/ben-jerrys-cookie-dough-ice-cream/026379-12833-12834");
+var mushroom_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/cup-mushrooms/085701-372143-43723");
+
 
 
 var settings = {
