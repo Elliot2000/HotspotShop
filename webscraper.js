@@ -25,23 +25,25 @@ var mushroom_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponen
 
 
 
-var settings = {
-          'cache': false,
-          'dataType': "jsonp",
-          "async": true,
-          "crossDomain": true,
-          "url": skimmed_milk_2_url,
-          "method": "GET",
-          "headers": {
-              "accept": "application/json",
-              "Access-Control-Allow-Origin":"*"
-          }
-}
+
 var urlObject;
 var numberID;
 var price;
 
 $(document).ready(function() {
+
+  var settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": skimmed_milk_2_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+  }
 
   $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
@@ -55,8 +57,278 @@ $(document).ready(function() {
               $( ".overlay2" ).delay(5000).fadeOut("slow");
             });
       }
-
   });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": semi_skimmed_milk_2_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".semi_skimmed_milk_2").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": whole_milk_2_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".whole_milk_2").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": gouda_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".gouda").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": philadelphia_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".philadelphia").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": cheddar_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".cheddar").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+
+
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": mozzarella_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".mozzarella").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": greek_yogurt_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".greek_yogurt").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": activia_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".activia").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": muller_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".muller").text(price);
+      }else{
+            $( ".overlay2" ).fadeIn( "slow",
+            function() {
+              $( ".overlay2" ).delay(5000).fadeOut("slow");
+            });
+      }
+  });
+
+
+
+
+
+
+
+
+
+
 });
 
 
