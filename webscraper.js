@@ -56,6 +56,7 @@ $(document).ready(function() {
       $(".mozzarella").text("£" + response["WAITROSE"]["mozzarella"]);
       $(".greek_yogurt").text("£" + response["WAITROSE"]["greek_yogurt"]);
       $(".activia").text("£" + response["WAITROSE"]["activia"]);
+      $(".muller").text("£" + response["WAITROSE"]["muller"]);
       $(".apple").text("£" + response["WAITROSE"]["apple"]);
       $(".banana").text("£" + response["WAITROSE"]["banana"]);
       $(".orange").text("£" + response["WAITROSE"]["orange"]);
