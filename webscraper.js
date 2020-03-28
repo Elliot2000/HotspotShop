@@ -73,10 +73,13 @@ $(document).ready(function() {
       $(".ice_cream").text("£" + response["WAITROSE"]["ice_cream"]);
   });
 
+  update();
+});
 
 
+function update(){
+  $( ".overlay3" ).fadeIn( "slow");
 
-/*
   var settings = {
             'cache': false,
             'dataType': "jsonp",
@@ -335,14 +338,10 @@ $(document).ready(function() {
             });
       }
   });
-*/
 
+  $( ".overlay3" ).fadeOut("slow");
 
-
-
-
-
-});
+};
 
 
 

@@ -259,3 +259,23 @@ h1 {
 	color: white;
 	cursor: pointer;
 }
+.overlay3{
+	position: fixed;
+	text-align: center;
+	top: 45%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 15%;
+	width:80%;
+	font-family: 'Karla', Arial, Helvetica;
+	border-radius: 3px;
+	z-index: 20;
+  font-size: 35px;
+  display: none;
+}
+.overlay3{
+	background-color: #a1b5d4;
+}
+.lower_font{
+  font-size: 25px;
+}
