@@ -1,0 +1,28 @@
+{
+  "WAITROSE": {
+    "skimmed_milk_2": "1.15",
+    "semi_skimmed_milk_2": "1.15",
+    "whole_milk_2": "1.15",
+    "gouda": "2.20",
+    "philadelphia": "1.95",
+    "cheddar": "4.00",
+    "mozzarella": "1.50",
+    "greek_yogurt": "1.89",
+    "activia": "2.00",
+    "apple": "0.41",
+    "banana": "0.16",
+    "orange": "0.27",
+    "cucumber": "0.65",
+    "carrots": "0.09",
+    "broccoli": "0.46",
+    "mushroom": "1.65",
+    "chips": "3.00",
+    "york_puddings": "2.60",
+    "marg_pizza": "4.50",
+    "pepp_pizza": "4.50",
+    "fish_fingers": "3.00",
+    "peas": "1.25",
+    "ice_cream": "4.50"
+  },
+  "mongodb": "mongodb://localhost:27017/contactsdb"
+}

@@ -233,37 +233,6 @@ $(document).ready(function() {
   });
 
 
-
-  settings = {
-            'cache': false,
-            'dataType': "jsonp",
-            "async": true,
-            "crossDomain": true,
-            "url": greek_yogurt_url,
-            "method": "GET",
-            "headers": {
-                "accept": "application/json",
-                "Access-Control-Allow-Origin":"*"
-            }
-    }
-
-
-  $.ajax(settings).done(function (response) {
-      urlObject = JSON.stringify(response);
-      numberID = urlObject.search('<span>£');
-      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
-      if(price != "tents"){
-        $(".greek_yogurt").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
-      }
-  });
-
-
-
   settings = {
             'cache': false,
             'dataType': "jsonp",
@@ -292,12 +261,14 @@ $(document).ready(function() {
       }
   });
 
+
+
   settings = {
             'cache': false,
             'dataType': "jsonp",
             "async": true,
             "crossDomain": true,
-            "url": muller_url,
+            "url": orange_url,
             "method": "GET",
             "headers": {
                 "accept": "application/json",
@@ -311,7 +282,7 @@ $(document).ready(function() {
       numberID = urlObject.search('<span>£');
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
-        $(".muller").text(price);
+        $(".orange_url").text(price);
       }else{
             $( ".overlay2" ).fadeIn( "slow",
             function() {
@@ -319,9 +290,6 @@ $(document).ready(function() {
             });
       }
   });
-
-
-
 
 
 
