@@ -47,7 +47,29 @@ $(document).ready(function() {
 
   $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
-      $(".skimmed_milk_2").text(response["WAITROSE"]["skimmed_milk_2"]);
+      $(".skimmed_milk_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
+      $(".semi_skimmed_milk_2").text("£" + response["WAITROSE"]["semi_skimmed_milk_2"]);
+      $(".whole_milk_2").text("£" + response["WAITROSE"]["whole_milk_2"]);
+      $(".gouda").text("£" + response["WAITROSE"]["gouda"]);
+      $(".philadelphia").text("£" + response["WAITROSE"]["philadelphia"]);
+      $(".cheddar").text("£" + response["WAITROSE"]["cheddar"]);
+      $(".mozzarella").text("£" + response["WAITROSE"]["mozzarella"]);
+      $(".greek_yogurt").text("£" + response["WAITROSE"]["greek_yogurt"]);
+      $(".activia").text("£" + response["WAITROSE"]["activia"]);
+      $(".apple").text("£" + response["WAITROSE"]["apple"]);
+      $(".banana").text("£" + response["WAITROSE"]["banana"]);
+      $(".orange").text("£" + response["WAITROSE"]["orange"]);
+      $(".cucumber").text("£" + response["WAITROSE"]["cucumber"]);
+      $(".carrots").text("£" + response["WAITROSE"]["carrots"]);
+      $(".broccoli").text("£" + response["WAITROSE"]["broccoli"]);
+      $(".mushroom").text("£" + response["WAITROSE"]["mushroom"]);
+      $(".chips").text("£" + response["WAITROSE"]["chips"]);
+      $(".york_puddings").text("£" + response["WAITROSE"]["york_puddings"]);
+      $(".marg_pizza").text("£" + response["WAITROSE"]["marg_pizza"]);
+      $(".pepp_pizza").text("£" + response["WAITROSE"]["pepp_pizza"]);
+      $(".fish_fingers").text("£" + response["WAITROSE"]["fish_fingers"]);
+      $(".peas").text("£" + response["WAITROSE"]["peas"]);
+      $(".ice_cream").text("£" + response["WAITROSE"]["ice_cream"]);
   });
 
 
