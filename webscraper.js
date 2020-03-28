@@ -47,13 +47,13 @@ $(document).ready(function() {
 
   $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
-      alert(response["WAITROSE"]["skimmed_milk_2"]);
+      $(".skimmed_milk_2").text(response["WAITROSE"]["skimmed_milk_2"]);
   });
 
 
 
 
-
+/*
   var settings = {
             'cache': false,
             'dataType': "jsonp",
@@ -312,7 +312,7 @@ $(document).ready(function() {
             });
       }
   });
-
+*/
 
 
 
