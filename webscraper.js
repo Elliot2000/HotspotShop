@@ -34,6 +34,28 @@ $(document).ready(function() {
 
   var settings = {
             'cache': false,
+            'dataType': "json",
+            "async": true,
+            "crossDomain": true,
+            "url": "https://pmichal.me/HotspotShop/price_data.json",
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+  }
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      alert(urlObject["WAITROSE"]["skimmed_milk_2"]);
+  });
+
+
+
+
+
+  var settings = {
+            'cache': false,
             'dataType': "jsonp",
             "async": true,
             "crossDomain": true,
