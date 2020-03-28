@@ -47,7 +47,7 @@ $(document).ready(function() {
 
   $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
-      alert(urlObject["WAITROSE"]["skimmed_milk_2"]);
+      alert(response["WAITROSE"]["skimmed_milk_2"]);
   });
 
 
