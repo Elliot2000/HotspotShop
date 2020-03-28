@@ -7,6 +7,13 @@ function codeAddress() {
   tabUnder[0].style.backgroundColor = "#5a879e";
   document.getElementById("Dairy").style.display = "block";
   document.getElementById("Dairy").className += " active";
+
+
+  $( ".close" ).click(function(event) {
+      event.preventDefault();
+      $( ".overlay" ).hide();
+      $( ".overlay3" ).hide();
+    });
  }
 
 window.onload = codeAddress;
