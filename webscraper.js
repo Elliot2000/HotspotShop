@@ -99,11 +99,6 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".skimmed_milk_2").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
       }
   });
 
@@ -127,11 +122,6 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".semi_skimmed_milk_2").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
       }
   });
 
@@ -156,11 +146,6 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".whole_milk_2").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
       }
   });
 
@@ -184,11 +169,6 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".gouda").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
       }
   });
 
@@ -212,11 +192,6 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".philadelphia").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
       }
   });
 
@@ -241,11 +216,6 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".cheddar").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
       }
   });
 
@@ -272,11 +242,29 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".mozzarella").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": greek_yogurt_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".greek_yogurt").text(price);
       }
   });
 
@@ -301,14 +289,32 @@ function update(){
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
         $(".activia").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
       }
   });
 
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": muller_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".muller").text(price);
+      }
+  });
 
 
   settings = {
@@ -330,16 +336,311 @@ function update(){
       numberID = urlObject.search('<span>£');
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
-        $(".orange_url").text(price);
-      }else{
-            $( ".overlay2" ).fadeIn( "slow",
-            function() {
-              $( ".overlay2" ).delay(5000).fadeOut("slow");
-            });
+        $(".orange").text(price);
       }
   });
 
-  $( ".overlay3" ).fadeOut("slow");
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": apple_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".apple").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": banana_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".banana").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": cucumber_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".cucumber").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": carrots_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".carrots").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": broccoli_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".broccoli").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": mushroom_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".mushroom").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": chips_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".chips").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": york_puddings_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".york_puddings").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": marg_pizza_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".marg_pizza").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": pepp_pizza_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".pepp_pizza").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": fish_fingers_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".fish_fingers").text(price);
+      }
+  });
+
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": peas_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".peas").text(price);
+      }
+  });
+  settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": ice_cream_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+    }
+
+
+  $.ajax(settings).done(function (response) {
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('<span>£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".ice_cream").text(price);
+      }
+  });
+
+
+
+  $( ".overlay3" ).delay(3000).fadeOut("slow");
 
 };
 
