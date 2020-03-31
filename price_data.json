@@ -25,5 +25,30 @@
     "peas": "1.25",
     "ice_cream": "4.50"
   },
-  "test": "test1"
+  "ASDA": {
+    "skimmed_milk_2": "1.10",
+    "semi_skimmed_milk_2": "1.10",
+    "whole_milk_2": "1.10",
+    "gouda": "1.75",
+    "philadelphia": "1.00",
+    "cheddar": "2.45",
+    "mozzarella": "1.00",
+    "greek_yogurt": "0.75",
+    "activia": "2.00",
+    "muller": "0.50",
+    "apple": "0.24",
+    "banana": "0.14",
+    "orange": "0.30",
+    "cucumber": "0.57",
+    "carrots": "0.08",
+    "broccoli": "0.50",
+    "mushroom": "1.00",
+    "chips": "3.00",
+    "york_puddings": "0.75",
+    "marg_pizza": "1.50",
+    "pepp_pizza": "1.75",
+    "fish_fingers": "1.36",
+    "peas": "0.99",
+    "ice_cream": "3.00"
+  }
 }
