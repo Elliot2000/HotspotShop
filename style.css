@@ -230,7 +230,7 @@ h1 {
 
 
 
-.overlay, .overlay2{
+.overlay{
 	position: fixed;
 	text-align: center;
 	top: 15%;
@@ -244,7 +244,7 @@ h1 {
 	z-index: 20;
   font-size: 25px;
 }
-.overlay, .overlay2{
+.overlay{
 	background-color: #d18c83;
 }
 .second_line{
@@ -265,17 +265,12 @@ h1 {
 	top: 45%;
 	left: 50%;
 	transform: translateX(-50%);
-	height: 35%;
+	height: 15%;
 	width:80%;
 	font-family: 'Karla', Arial, Helvetica;
 	border-radius: 3px;
 	z-index: 20;
-  font-size: 35px;
+  font-size: 30px;
   display: none;
-}
-.overlay3{
-	background-color: #a1b5d4;
-}
-.lower_font{
-  font-size: 25px;
+  background-color: #a1b5d4;
 }
