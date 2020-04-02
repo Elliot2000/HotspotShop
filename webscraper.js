@@ -107,7 +107,37 @@ $(document).ready(function() {
 function update(){
   $( ".overlay3" ).fadeIn( "slow");
 
+
+
   var settings = {
+            'cache': false,
+            'dataType': "jsonp",
+            "async": true,
+            "crossDomain": true,
+            "url": as_skimmed_milk_2_url,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "Access-Control-Allow-Origin":"*"
+            }
+  }
+
+  $.ajax(settings).done(function (response) {
+      $(".PRICE2").text(response);
+      alert(response);
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('pdp-main-details__price">£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      if(price != "tents"){
+        $(".PRICE2").text(price);
+      }
+  });
+
+
+
+
+
+  settings = {
             'cache': false,
             'dataType': "jsonp",
             "async": true,
@@ -129,30 +159,6 @@ function update(){
       }
   });
 
-
-
-  settings = {
-            'cache': false,
-            'dataType': "jsonp",
-            "async": true,
-            "crossDomain": true,
-            "url": as_skimmed_milk_2_url,
-            "method": "GET",
-            "headers": {
-                "accept": "application/json",
-                "Access-Control-Allow-Origin":"*"
-            }
-  }
-
-  $.ajax(settings).done(function (response) {
-      $(".PRICE2").text(response);
-      urlObject = JSON.stringify(response);
-      numberID = urlObject.search('pdp-main-details__price">£');
-      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
-      if(price != "tents"){
-        $(".PRICE2").text(price);
-      }
-  });
 
   settings = {
             'cache': false,
