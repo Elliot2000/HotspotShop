@@ -1,4 +1,4 @@
-var wa_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-skimmed-milk/053444-26741-26742");
+var wa_skimmed_milk_2_url = "https://www.waitrose.com/ecom/products/essential-waitrose-skimmed-milk/053444-26741-26742";
 var wa_semi_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-semi-skimmed-milk/053457-26759-26760");
 var wa_whole_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-whole-milk/053404-26711-26712");
 var wa_gouda_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-sliced-dutch-gouda-10-slices-strength-2/078724-40077-40078");
