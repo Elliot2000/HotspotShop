@@ -26,29 +26,29 @@ var wa_mushroom_url = "https://www.whateverorigin.org/get?url=" + encodeURICompo
 
 
 var as_skimmed_milk_2_url = "https://groceries.asda.com/product/skimmed-1-fat-milk/asda-skimmed-milk/20505";
-var as_semi_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/semi-skimmed-milk/asda-semi-skimmed-milk/20504");
-var as_whole_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/whole-milk/asda-whole-milk/20502");
-var as_gouda_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/cheese-slices/asda-10-gouda-slices/1000013419759");
-var as_philadelphia_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/soft-cheese/philadelphia-original-soft-cheese/910001440347");
-var as_cheddar_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/lower-fat-cheese/asda-30-less-fat-extra-mature-cheddar-cheese/910001707235");
-var as_mozzarella_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/mozzarella-mascarpone/galbani-italian-mozzarella-cheese/910000333828");
-var as_greek_yogurt_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/natural-plain/asda-greek-style-yogurt/25611979");
-var as_activia_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/activia-yogurts/activia-intensely-creamy-strawberry-yogurts/910001285499");
-var as_muller_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/corners/muller-corner-vanilla-yogurt-with-chocolate-balls/1000120228362");
-var as_apple_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/apples/asda-growers-selection-loose-gala-apple-order-by-number-of-apples-or-select-kg/20361");
-var as_banana_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/bananas/asda-growers-selection-loose-banana-order-by-number-of-bananas-or-select-kg/20332");
-var as_orange_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/oranges-easy-peelers/asda-growers-selection-loose-orange/20256");
-var as_cucumber_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/lettuce-cucumber/asda-growers-selection-cucumber/43966703");
-var as_carrots_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/carrots-root-vegetables/asda-growers-selection-loose-carrot-order-by-number-of-carrots-or-select-kg/20324");
-var as_broccoli_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/broccoli-cauliflower/asda-growers-selection-broccoli/910002634444");
-var as_chips_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/chips-fries/mc-cain-frozen-home-chips-straight/910001430473");
-var as_york_puddings_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/yorkshire-puddings/asda-12-yorkshire-puddings/1000167816643");
-var as_marg_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/thin-crust-pizza/goodfellas-stonebaked-thin-margherita-pizza/910000224862");
-var as_pepp_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/boxed-pizza/asda-pepperoni-thin-stonebaked-10-pizza/910001920773");
-var as_fish_fingers_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/fish-fingers-shapes/asda-10-omega-3-fish-fingers/81981734");
-var as_peas_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/vegetables/asda-frozen-for-freshness-garden-peas/31122557");
-var as_ice_cream_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/ice-cream-tubs/ben-jerrys-cookie-dough-ice-cream/1000189263344");
-var as_mushroom_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/mushrooms/asda-growers-selection-white-mushrooms/910000921220");
+var as_semi_skimmed_milk_2_url = "https://groceries.asda.com/product/semi-skimmed-milk/asda-semi-skimmed-milk/20504";
+var as_whole_milk_2_url = "https://groceries.asda.com/product/whole-milk/asda-whole-milk/20502";
+var as_gouda_url = "https://groceries.asda.com/product/cheese-slices/asda-10-gouda-slices/1000013419759";
+var as_philadelphia_url = "https://groceries.asda.com/product/soft-cheese/philadelphia-original-soft-cheese/910001440347";
+var as_cheddar_url = "https://groceries.asda.com/product/lower-fat-cheese/asda-30-less-fat-extra-mature-cheddar-cheese/910001707235";
+var as_mozzarella_url = "https://groceries.asda.com/product/mozzarella-mascarpone/galbani-italian-mozzarella-cheese/910000333828";
+var as_greek_yogurt_url = "https://groceries.asda.com/product/natural-plain/asda-greek-style-yogurt/25611979";
+var as_activia_url = "https://groceries.asda.com/product/activia-yogurts/activia-intensely-creamy-strawberry-yogurts/910001285499";
+var as_muller_url = "https://groceries.asda.com/product/corners/muller-corner-vanilla-yogurt-with-chocolate-balls/1000120228362";
+var as_apple_url = "https://groceries.asda.com/product/apples/asda-growers-selection-loose-gala-apple-order-by-number-of-apples-or-select-kg/20361";
+var as_banana_url = "https://groceries.asda.com/product/bananas/asda-growers-selection-loose-banana-order-by-number-of-bananas-or-select-kg/20332";
+var as_orange_url = "https://groceries.asda.com/product/oranges-easy-peelers/asda-growers-selection-loose-orange/20256";
+var as_cucumber_url = "https://groceries.asda.com/product/lettuce-cucumber/asda-growers-selection-cucumber/43966703";
+var as_carrots_url = "https://groceries.asda.com/product/carrots-root-vegetables/asda-growers-selection-loose-carrot-order-by-number-of-carrots-or-select-kg/20324";
+var as_broccoli_url = "https://groceries.asda.com/product/broccoli-cauliflower/asda-growers-selection-broccoli/910002634444";
+var as_chips_url = "https://groceries.asda.com/product/chips-fries/mc-cain-frozen-home-chips-straight/910001430473";
+var as_york_puddings_url = "https://groceries.asda.com/product/yorkshire-puddings/asda-12-yorkshire-puddings/1000167816643";
+var as_marg_pizza_url = "https://groceries.asda.com/product/thin-crust-pizza/goodfellas-stonebaked-thin-margherita-pizza/910000224862";
+var as_pepp_pizza_url = "https://groceries.asda.com/product/boxed-pizza/asda-pepperoni-thin-stonebaked-10-pizza/910001920773";
+var as_fish_fingers_url = "https://groceries.asda.com/product/fish-fingers-shapes/asda-10-omega-3-fish-fingers/81981734";
+var as_peas_url = "https://groceries.asda.com/product/vegetables/asda-frozen-for-freshness-garden-peas/31122557";
+var as_ice_cream_url = "https://groceries.asda.com/product/ice-cream-tubs/ben-jerrys-cookie-dough-ice-cream/1000189263344";
+var as_mushroom_url = "https://groceries.asda.com/product/mushrooms/asda-growers-selection-white-mushrooms/910000921220";
 
 
 
@@ -98,6 +98,31 @@ $(document).ready(function() {
       $(".fish_fingers").text("£" + response["WAITROSE"]["fish_fingers"]);
       $(".peas").text("£" + response["WAITROSE"]["peas"]);
       $(".ice_cream").text("£" + response["WAITROSE"]["ice_cream"]);
+
+      $(".skimmed_milk_2_2").text("£" + response["ASDA"]["skimmed_milk_2"]);
+      $(".semi_skimmed_milk_2_2").text("£" + response["ASDA"]["semi_skimmed_milk_2"]);
+      $(".whole_milk_2_2").text("£" + response["ASDA"]["whole_milk_2"]);
+      $(".gouda_2").text("£" + response["ASDA"]["gouda"]);
+      $(".philadelphia_2").text("£" + response["ASDA"]["philadelphia"]);
+      $(".cheddar_2").text("£" + response["ASDA"]["cheddar"]);
+      $(".mozzarella_2").text("£" + response["ASDA"]["mozzarella"]);
+      $(".greek_yogurt_2").text("£" + response["ASDA"]["greek_yogurt"]);
+      $(".activia_2").text("£" + response["ASDA"]["activia"]);
+      $(".muller_2").text("£" + response["ASDA"]["muller"]);
+      $(".apple_2").text("£" + response["ASDA"]["apple"]);
+      $(".banana_2").text("£" + response["ASDA"]["banana"]);
+      $(".orange_2").text("£" + response["ASDA"]["orange"]);
+      $(".cucumber_2").text("£" + response["ASDA"]["cucumber"]);
+      $(".carrots_2").text("£" + response["ASDA"]["carrots"]);
+      $(".broccoli_2").text("£" + response["ASDA"]["broccoli"]);
+      $(".mushroom_2").text("£" + response["ASDA"]["mushroom"]);
+      $(".chips_2").text("£" + response["ASDA"]["chips"]);
+      $(".york_puddings_2").text("£" + response["ASDA"]["york_puddings"]);
+      $(".marg_pizza_2").text("£" + response["ASDA"]["marg_pizza"]);
+      $(".pepp_pizza_2").text("£" + response["ASDA"]["pepp_pizza"]);
+      $(".fish_fingers_2").text("£" + response["ASDA"]["fish_fingers"]);
+      $(".peas_2").text("£" + response["ASDA"]["peas"]);
+      $(".ice_cream_2").text("£" + response["ASDA"]["ice_cream"]);
   });
 
   update();
@@ -106,7 +131,8 @@ $(document).ready(function() {
 
 function update(){
   $( ".overlay3" ).fadeIn( "slow");
-
+  var pricenum1, pricenum2;
+  var error = false;
 
 
   var settings = {
@@ -122,22 +148,7 @@ function update(){
             }
   }
 
-  $.ajax(settings).done(function (response) {
-      $(".PRICE2").text(response);
-      alert(response);
-      urlObject = JSON.stringify(response);
-      numberID = urlObject.search('pdp-main-details__price">£');
-      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
-      if(price != "tents"){
-        $(".PRICE2").text(price);
-      }
-  });
-
-
-
-
-
-  settings = {
+  var settings2 = {
             'cache': false,
             'dataType': "jsonp",
             "async": true,
@@ -151,13 +162,73 @@ function update(){
   }
 
   $.ajax(settings).done(function (response) {
+      alert(response);
+      urlObject = JSON.stringify(response);
+      numberID = urlObject.search('pdp-main-details__price">£');
+      price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
+      try{
+        var pricenum1 = parseFloat(price)
+      }catch(e){
+        error = true;
+      }
+  });
+
+  $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
       numberID = urlObject.search('<span>£');
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
-        $(".skimmed_milk_2").text(price);
+        try{
+          var pricenum2 = parseFloat(price)
+        }catch(e){
+          error = true;
+        }
+      }else{
+        error = true;
       }
   });
+
+  if(error == true){
+      settings = {
+              'cache': false,
+              'dataType': "json",
+              "async": true,
+              "crossDomain": true,
+              "url": "https://pmichal.me/HotspotShop/price_data.json",
+              "method": "GET",
+              "headers": {
+                  "accept": "application/json",
+                  "Access-Control-Allow-Origin":"*"
+              }
+      }
+
+      $.ajax(settings).done(function (response) {
+        urlObject = JSON.stringify(response);
+        pricenum1 = parseFloat(response["WAITROSE"]["skimmed_milk_2"]);
+        pricenum2 = parseFloat(response["ASDA"]["skimmed_milk_2"]);
+
+
+      if(pricenum1 > pricenum2){
+        $(".skimmed_milk_2").text("£" + response["ASDA"]["skimmed_milk_2"]);
+        $(".skimmed_milk_2_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
+      }else{
+        $(".skimmed_milk_2_2").text("£" + response["ASDA"]["skimmed_milk_2"]);
+        $(".skimmed_milk_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
+      }
+
+      });
+      error = false;
+  }else{
+    if(pricenum1 > pricenum2){
+      $(".skimmed_milk_2").text("£" + pricenum1);
+      $(".skimmed_milk_2_2").text("£" + pricenum2);
+    }else{
+      $(".skimmed_milk_2_2").text("£" + pricenum1);
+      $(".skimmed_milk_2").text("£" + pricenum2);
+    }
+  }
+
+
 
 
   settings = {
