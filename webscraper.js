@@ -25,7 +25,7 @@ var wa_mushroom_url = "https://www.whateverorigin.org/get?url=" + encodeURICompo
 
 
 
-var as_skimmed_milk_2_url = "https://groceries.asda.com/product/skimmed-1-fat-milk/asda-skimmed-milk/20505");
+var as_skimmed_milk_2_url = "https://groceries.asda.com/product/skimmed-1-fat-milk/asda-skimmed-milk/20505";
 var as_semi_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/semi-skimmed-milk/asda-semi-skimmed-milk/20504");
 var as_whole_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/whole-milk/asda-whole-milk/20502");
 var as_gouda_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://groceries.asda.com/product/cheese-slices/asda-10-gouda-slices/1000013419759");
