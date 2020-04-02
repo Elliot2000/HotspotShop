@@ -174,6 +174,7 @@ function update(){
   });
 
   $.ajax(settings).done(function (response) {
+      alert(response);
       urlObject = JSON.stringify(response);
       numberID = urlObject.search('<span>£');
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
