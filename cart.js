@@ -23,37 +23,31 @@ $(document).ready(function() {
   }
 
   // Gets the name and the price of the item and adds it to the cart as well as updates local storage with it too
-  $( ".action--add" ).click(function(event, source) {
-    present = false;
+  $( ".action-add" ).click(function(event, source) {
+      present = false;
     var name = $(this).attr("name_data");
-    addProduct(name);
+      console.log(name);
+    addProduct(name); //Adds the product to the list of increases its total if present
     var data_string = JSON.stringify(data);
     localStorage.setItem("cart", data_string);
-
-		var cartItems = parseInt($('.totalCount').text(), 10);
-    if (present === false){
-      localStorage.setItem("totalItems", cartItems+1);
-      $(".totalCount").text(localStorage.getItem('totalItems'));
-    }else{
-      present = true;
-    }
-
+    var cartItems = parseInt($('.totalCount').text(), 10);
+    localStorage.setItem("totalItems", cartItems+1);
+    $(".totalCount").text(localStorage.getItem('totalItems'));
   });
-
-
+    
+    // Gets the name and the price of the item and subtracts it from the cart as well as updates local storage with it too
   $( ".action-sub" ).click(function(event, source) {
-        present = false;
-      var name = $(this).attr("name_data");
-      subProduct(name); //Adds the product to the list of increases its total if present
-      var data_string = JSON.stringify(data);
-      localStorage.setItem("cart", data_string);
-      var cartItems = parseInt($('.totalCount').text(), 10);
-      if(present === true){
-          localStorage.setItem("totalItems", cartItems-1); //Will subtract the cart total only if the item is present
-      }
-      $(".totalCount").text(localStorage.getItem('totalItems'));
-    });
-
+      present = false;
+    var name = $(this).attr("name_data");
+    subProduct(name); //Adds the product to the list of increases its total if present
+    var data_string = JSON.stringify(data);
+    localStorage.setItem("cart", data_string);
+    var cartItems = parseInt($('.totalCount').text(), 10);
+    if(present === true){
+        localStorage.setItem("totalItems", cartItems-1); //Will subtract the cart total only if the item is present
+    }
+    $(".totalCount").text(localStorage.getItem('totalItems'));
+  });
 
 
   $( ".letsCompare" ).click(function(event, source) {
@@ -84,7 +78,9 @@ function addProduct(name){
     for(var i=0; i<data.total; i++){
       var row = data.rows[i];
       if (row.name === name){
+        // If the name is the same of the product, add one to the quantity instead of adding another product
         row.quantity += 1;
+        console.log(row.quantity);
         present = true;
         return;
       }
@@ -98,9 +94,6 @@ function addProduct(name){
   }
   add();
 }
-
-
-
 
 function subProduct(name){
     console.log("sub fire")
@@ -120,8 +113,10 @@ function subProduct(name){
             console.log("splice");
             data.rows.pop(row);
             data.total -=1;
-        }
+        }   
     }
   }
   sub();
   }
+
+
