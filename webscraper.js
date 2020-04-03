@@ -74,10 +74,10 @@ $(document).ready(function() {
 
   $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
-      $(".skimmed_milk_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
-      $(".semi_skimmed_milk_2").text("£" + response["WAITROSE"]["semi_skimmed_milk_2"]);
-      $(".whole_milk_2").text("£" + response["WAITROSE"]["whole_milk_2"]);
-      $(".gouda").text("£" + response["WAITROSE"]["gouda"]);
+      //$(".skimmed_milk_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
+      //$(".semi_skimmed_milk_2").text("£" + response["WAITROSE"]["semi_skimmed_milk_2"]);
+      //$(".whole_milk_2").text("£" + response["WAITROSE"]["whole_milk_2"]);
+      //$(".gouda").text("£" + response["WAITROSE"]["gouda"]);
       $(".philadelphia").text("£" + response["WAITROSE"]["philadelphia"]);
       $(".cheddar").text("£" + response["WAITROSE"]["cheddar"]);
       $(".mozzarella").text("£" + response["WAITROSE"]["mozzarella"]);
@@ -99,10 +99,10 @@ $(document).ready(function() {
       $(".peas").text("£" + response["WAITROSE"]["peas"]);
       $(".ice_cream").text("£" + response["WAITROSE"]["ice_cream"]);
 
-      $(".skimmed_milk_2_2").text("£" + response["ASDA"]["skimmed_milk_2"]);
-      $(".semi_skimmed_milk_2_2").text("£" + response["ASDA"]["semi_skimmed_milk_2"]);
-      $(".whole_milk_2_2").text("£" + response["ASDA"]["whole_milk_2"]);
-      $(".gouda_2").text("£" + response["ASDA"]["gouda"]);
+      //$(".skimmed_milk_2_2").text("£" + response["ASDA"]["skimmed_milk_2"]);
+      //$(".semi_skimmed_milk_2_2").text("£" + response["ASDA"]["semi_skimmed_milk_2"]);
+      //$(".whole_milk_2_2").text("£" + response["ASDA"]["whole_milk_2"]);
+      //$(".gouda_2").text("£" + response["ASDA"]["gouda"]);
       $(".philadelphia_2").text("£" + response["ASDA"]["philadelphia"]);
       $(".cheddar_2").text("£" + response["ASDA"]["cheddar"]);
       $(".mozzarella_2").text("£" + response["ASDA"]["mozzarella"]);
