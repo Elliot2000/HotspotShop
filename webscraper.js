@@ -1,58 +1,3 @@
-var wa_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-skimmed-milk/053444-26741-26742");
-var wa_semi_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-semi-skimmed-milk/053457-26759-26760");
-var wa_whole_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-whole-milk/053404-26711-26712");
-var wa_gouda_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/essential-waitrose-sliced-dutch-gouda-10-slices-strength-2/078724-40077-40078");
-var wa_philadelphia_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/philadelphia-original/041421-20508-20509");
-var wa_cheddar_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-somerset-cheddar-mature-strength-5/668767-451756-451757");
-var wa_mozzarella_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/galbani-mozzarella/041220-20388-20389");
-var wa_greek_yogurt_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/kri-kri-my-authentic-greek-yogurt-10/549731-653496-653497");
-var wa_activia_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/activia-strawberry/786602-690832-690833");
-var wa_muller_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/muller-corner-vanilla-chocolate-balls/053238-26611-26612");
-var wa_apple_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/braeburn-apples/088640-45525-45526");
-var wa_banana_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/fairtrade-bananas/088903-45703-45704");
-var wa_orange_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/tango-easy-peeler-mandarins/088414-45365-45366");
-var wa_cucumber_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/cucumber/086468-44158-44159");
-var wa_carrots_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/carrots/085125-43221-43222");
-var wa_broccoli_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/broccoli/085242-43323-43324");
-var wa_chips_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/aunt-bessies-crispy-homestyle-chips/042645-21098-21099");
-var wa_york_puddings_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-frozen-12-yorkshire-puddings/694992-98677-98678");
-var wa_marg_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-margherita-pizza/096458-49344-49345");
-var wa_pepp_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-pepperoni-pizza/092923-47761-47762");
-var wa_fish_fingers_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/birds-eye-10-cod-fish-fingers/618561-130834-130835");
-var wa_peas_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/waitrose-duchy-petits-pois/092908-47755-47756");
-var wa_ice_cream_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/ben-jerrys-cookie-dough-ice-cream/026379-12833-12834");
-var wa_mushroom_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent("https://www.waitrose.com/ecom/products/cup-mushrooms/085701-372143-43723");
-
-
-
-var as_skimmed_milk_2_url = "https://groceries.asda.com/product/skimmed-1-fat-milk/asda-skimmed-milk/20505";
-var as_semi_skimmed_milk_2_url = "https://groceries.asda.com/product/semi-skimmed-milk/asda-semi-skimmed-milk/20504";
-var as_whole_milk_2_url = "https://groceries.asda.com/product/whole-milk/asda-whole-milk/20502";
-var as_gouda_url = "https://groceries.asda.com/product/cheese-slices/asda-10-gouda-slices/1000013419759";
-var as_philadelphia_url = "https://groceries.asda.com/product/soft-cheese/philadelphia-original-soft-cheese/910001440347";
-var as_cheddar_url = "https://groceries.asda.com/product/lower-fat-cheese/asda-30-less-fat-extra-mature-cheddar-cheese/910001707235";
-var as_mozzarella_url = "https://groceries.asda.com/product/mozzarella-mascarpone/galbani-italian-mozzarella-cheese/910000333828";
-var as_greek_yogurt_url = "https://groceries.asda.com/product/natural-plain/asda-greek-style-yogurt/25611979";
-var as_activia_url = "https://groceries.asda.com/product/activia-yogurts/activia-intensely-creamy-strawberry-yogurts/910001285499";
-var as_muller_url = "https://groceries.asda.com/product/corners/muller-corner-vanilla-yogurt-with-chocolate-balls/1000120228362";
-var as_apple_url = "https://groceries.asda.com/product/apples/asda-growers-selection-loose-gala-apple-order-by-number-of-apples-or-select-kg/20361";
-var as_banana_url = "https://groceries.asda.com/product/bananas/asda-growers-selection-loose-banana-order-by-number-of-bananas-or-select-kg/20332";
-var as_orange_url = "https://groceries.asda.com/product/oranges-easy-peelers/asda-growers-selection-loose-orange/20256";
-var as_cucumber_url = "https://groceries.asda.com/product/lettuce-cucumber/asda-growers-selection-cucumber/43966703";
-var as_carrots_url = "https://groceries.asda.com/product/carrots-root-vegetables/asda-growers-selection-loose-carrot-order-by-number-of-carrots-or-select-kg/20324";
-var as_broccoli_url = "https://groceries.asda.com/product/broccoli-cauliflower/asda-growers-selection-broccoli/910002634444";
-var as_chips_url = "https://groceries.asda.com/product/chips-fries/mc-cain-frozen-home-chips-straight/910001430473";
-var as_york_puddings_url = "https://groceries.asda.com/product/yorkshire-puddings/asda-12-yorkshire-puddings/1000167816643";
-var as_marg_pizza_url = "https://groceries.asda.com/product/thin-crust-pizza/goodfellas-stonebaked-thin-margherita-pizza/910000224862";
-var as_pepp_pizza_url = "https://groceries.asda.com/product/boxed-pizza/asda-pepperoni-thin-stonebaked-10-pizza/910001920773";
-var as_fish_fingers_url = "https://groceries.asda.com/product/fish-fingers-shapes/asda-10-omega-3-fish-fingers/81981734";
-var as_peas_url = "https://groceries.asda.com/product/vegetables/asda-frozen-for-freshness-garden-peas/31122557";
-var as_ice_cream_url = "https://groceries.asda.com/product/ice-cream-tubs/ben-jerrys-cookie-dough-ice-cream/1000189263344";
-var as_mushroom_url = "https://groceries.asda.com/product/mushrooms/asda-growers-selection-white-mushrooms/910000921220";
-
-
-
-
 var urlObject;
 var numberID;
 var price;
@@ -75,54 +20,108 @@ $(document).ready(function() {
   $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
       $(".skimmed_milk_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
+      wa_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["skimmed_milk_2_url"]);
       $(".semi_skimmed_milk_2").text("£" + response["WAITROSE"]["semi_skimmed_milk_2"]);
+      wa_semi_skimmed_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["semi_skimmed_milk_2_url"]);
       $(".whole_milk_2").text("£" + response["WAITROSE"]["whole_milk_2"]);
+      wa_whole_milk_2_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["whole_milk_2_url"]);
       $(".gouda").text("£" + response["WAITROSE"]["gouda"]);
+      wa_gouda_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["gouda_url"]);
       $(".philadelphia").text("£" + response["WAITROSE"]["philadelphia"]);
+      wa_philadelphia_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["philadelphia_url"]);
       $(".cheddar").text("£" + response["WAITROSE"]["cheddar"]);
+      wa_cheddar_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["cheddar_url"]);
       $(".mozzarella").text("£" + response["WAITROSE"]["mozzarella"]);
+      wa_mozzarella_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["mozzarella_url"]);
       $(".greek_yogurt").text("£" + response["WAITROSE"]["greek_yogurt"]);
+      wa_greek_yogurt_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["greek_yogurt_url"]);
       $(".activia").text("£" + response["WAITROSE"]["activia"]);
+      wa_activia_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["activia_url"]);
       $(".muller").text("£" + response["WAITROSE"]["muller"]);
+      wa_muller_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["muller_url"]);
       $(".apple").text("£" + response["WAITROSE"]["apple"]);
+      wa_apple_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["apple_url"]);
       $(".banana").text("£" + response["WAITROSE"]["banana"]);
+      wa_banana_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["banana_url"]);
       $(".orange").text("£" + response["WAITROSE"]["orange"]);
+      wa_orange_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["orange_url"]);
       $(".cucumber").text("£" + response["WAITROSE"]["cucumber"]);
+      wa_cucumber_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["cucumber_url"]);
       $(".carrots").text("£" + response["WAITROSE"]["carrots"]);
+      wa_carrots_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["carrots_url"]);
       $(".broccoli").text("£" + response["WAITROSE"]["broccoli"]);
+      wa_broccoli_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["broccoli_url"]);
       $(".mushroom").text("£" + response["WAITROSE"]["mushroom"]);
+      wa_mushroom_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["mushroom_url"]);
       $(".chips").text("£" + response["WAITROSE"]["chips"]);
+      wa_chips_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["chips_url"]);
       $(".york_puddings").text("£" + response["WAITROSE"]["york_puddings"]);
+      wa_york_puddings_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["york_puddings_url"]);
       $(".marg_pizza").text("£" + response["WAITROSE"]["marg_pizza"]);
+      wa_marg_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["marg_pizza_url"]);
       $(".pepp_pizza").text("£" + response["WAITROSE"]["pepp_pizza"]);
+      wa_pepp_pizza_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["pepp_pizza_url"]);
       $(".fish_fingers").text("£" + response["WAITROSE"]["fish_fingers"]);
+      wa_fish_fingers_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["fish_fingers_url"]);
       $(".peas").text("£" + response["WAITROSE"]["peas"]);
+      wa_peas_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["peas_url"]);
       $(".ice_cream").text("£" + response["WAITROSE"]["ice_cream"]);
+      wa_ice_cream_url = "https://www.whateverorigin.org/get?url=" + encodeURIComponent(response["WAITROSE"]["ice_cream_url"]);
+
+
+
+
+
 
       $(".skimmed_milk_2_2").text("£" + response["ASDA"]["skimmed_milk_2"]);
+      as_skimmed_milk_2_url = response["ASDA"]["skimmed_milk_2_url"];
       $(".semi_skimmed_milk_2_2").text("£" + response["ASDA"]["semi_skimmed_milk_2"]);
+      as_semi_skimmed_milk_2_url = response["ASDA"]["semi_skimmed_milk_2_url"];
       $(".whole_milk_2_2").text("£" + response["ASDA"]["whole_milk_2"]);
+      as_whole_milk_2_url = response["ASDA"]["ice_cream_url"];
       $(".gouda_2").text("£" + response["ASDA"]["gouda"]);
+      as_gouda_url = response["ASDA"]["gouda_url"];
       $(".philadelphia_2").text("£" + response["ASDA"]["philadelphia"]);
+      as_philadelphia_url = response["ASDA"]["philadelphia_url"];
       $(".cheddar_2").text("£" + response["ASDA"]["cheddar"]);
+      as_cheddar_url = response["ASDA"]["cheddar_url"];
       $(".mozzarella_2").text("£" + response["ASDA"]["mozzarella"]);
+      as_mozzarella_url = response["ASDA"]["mozzarella_url"];
       $(".greek_yogurt_2").text("£" + response["ASDA"]["greek_yogurt"]);
+      as_greek_yogurt_url = response["ASDA"]["greek_yogurt_url"];
       $(".activia_2").text("£" + response["ASDA"]["activia"]);
+      as_activia_url = response["ASDA"]["activia_url"];
       $(".muller_2").text("£" + response["ASDA"]["muller"]);
+      as_muller_url = response["ASDA"]["muller_url"];
       $(".apple_2").text("£" + response["ASDA"]["apple"]);
+      as_apple_url = response["ASDA"]["apple_url"];
       $(".banana_2").text("£" + response["ASDA"]["banana"]);
+      as_banana_url = response["ASDA"]["banana_url"];
       $(".orange_2").text("£" + response["ASDA"]["orange"]);
+      as_orange_url = response["ASDA"]["orange_url"];
       $(".cucumber_2").text("£" + response["ASDA"]["cucumber"]);
+      as_cucumber_url = response["ASDA"]["cucumber_url"];
       $(".carrots_2").text("£" + response["ASDA"]["carrots"]);
+      as_carrots_url = response["ASDA"]["carrots_url"];
       $(".broccoli_2").text("£" + response["ASDA"]["broccoli"]);
+      as_broccoli_url = response["ASDA"]["broccoli_url"];
       $(".mushroom_2").text("£" + response["ASDA"]["mushroom"]);
+      as_mushroom_url = response["ASDA"]["mushroom_url"];
       $(".chips_2").text("£" + response["ASDA"]["chips"]);
+      as_chips_url = response["ASDA"]["chips_url"];
       $(".york_puddings_2").text("£" + response["ASDA"]["york_puddings"]);
+      as_york_puddings_url = response["ASDA"]["york_puddings_url"];
       $(".marg_pizza_2").text("£" + response["ASDA"]["marg_pizza"]);
+      as_marg_pizza_url = response["ASDA"]["marg_pizza_url"];
       $(".pepp_pizza_2").text("£" + response["ASDA"]["pepp_pizza"]);
+      as_pepp_pizza_url = response["ASDA"]["pepp_pizza_url"];
       $(".fish_fingers_2").text("£" + response["ASDA"]["fish_fingers"]);
+      as_fish_fingers_url = response["ASDA"]["fish_fingers_url"];
       $(".peas_2").text("£" + response["ASDA"]["peas"]);
+      as_peas_url = response["ASDA"]["peas_url"];
       $(".ice_cream_2").text("£" + response["ASDA"]["ice_cream"]);
+      as_ice_cream_url = response["ASDA"]["ice_cream_url"];
+
   });
 
   update();
