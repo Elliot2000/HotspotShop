@@ -34,7 +34,7 @@ $(document).ready(function() {
     localStorage.setItem("totalItems", cartItems+1);
     $(".totalCount").text(localStorage.getItem('totalItems'));
   });
-    
+
     // Gets the name and the price of the item and subtracts it from the cart as well as updates local storage with it too
   $( ".action-sub" ).click(function(event, source) {
       present = false;
@@ -80,7 +80,6 @@ function addProduct(name){
       if (row.name === name){
         // If the name is the same of the product, add one to the quantity instead of adding another product
         row.quantity += 1;
-        console.log(row.quantity);
         present = true;
         return;
       }
@@ -96,11 +95,9 @@ function addProduct(name){
 }
 
 function subProduct(name){
-    console.log("sub fire")
   'use strict';
   function sub(){
     for(var i=0; i<data.total; i++){
-        console.log("sub looping");
       var row = data.rows[i];
       if (row.name === name){
         // If the name is the same of the product, add one to the quantity instead of adding another product
@@ -108,15 +105,11 @@ function subProduct(name){
         console.log(row.quantity);
         present = true;
       }
-        console.log("pre splice")
         if(row.quantity < 1){
-            console.log("splice");
             data.rows.pop(row);
             data.total -=1;
-        }   
+        }
     }
   }
   sub();
   }
-
-

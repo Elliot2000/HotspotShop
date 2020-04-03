@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 
     for (i = 0; i < totalItems; i++) {
-      addRow(items["rows"][i]["name"]);
+      addRow(items["rows"][i]["name"], items["rows"][i]["quantity"]);
     }
 
   }else{
@@ -30,12 +30,12 @@ $(document).ready(function() {
   });
 
 
-  function addRow (itemName) {
+  function addRow (itemName, itemQuantity) {
   document.querySelector('.ActualList').insertAdjacentHTML(
     'afterbegin',
     `  <div class="ItemList">
-          <div id="Item1" class="itemTab">` + itemName + `<br><span class="itemPrice">£0</span></div>
-          <div id="Item2" class="itemTab">` + itemName + `<br><span class="itemPrice">£0</span></div>
+          <div id="Item1" class="itemTab">` + itemName + `<br><span class="itemPrice">` + itemQuantity + ` x £0</span></div>
+          <div id="Item2" class="itemTab">` + itemName + `<br><span class="itemPrice">` + itemQuantity + ` x £0</span></div>
       </div>`
   )
 }
