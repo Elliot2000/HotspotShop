@@ -7,7 +7,8 @@ $(document).ready(function() {
 
     // Declare variables using data in the local storage
     var cart = localStorage.getItem('cart');
-    var totalItems = parseInt(localStorage.getItem('totalItems'), 10);
+    var totalItems = parseInt(localStorage.getItem('totalItems'), 10);#
+    var total1 = 0, total2= 0;
 
     $(".totalCount").text(totalItems);
 
@@ -18,7 +19,13 @@ $(document).ready(function() {
 
     for (i = 0; i < totalItems; i++) {
       addRow(items["rows"][i]["name"], items["rows"][i]["quantity"], items["rows"][i]["price1"], items["rows"][i]["price2"]);
+      total1 += +(items["rows"][i]["price1"].substring(1));
+      total2 += +(items["rows"][i]["price2"].substring(1));
     }
+
+
+    $(".priceTotal1").text(total1);
+    $(".priceTotal2").text(total2);
 
   }else{
     $(".totalCount").text(0);
