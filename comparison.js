@@ -19,8 +19,8 @@ $(document).ready(function() {
 
     for (i = 0; i < totalItems; i++) {
       addRow(items["rows"][i]["name"], items["rows"][i]["quantity"], items["rows"][i]["price1"], items["rows"][i]["price2"]);
-      total1 += +(items["rows"][i]["price1"].substring(1));
-      total2 += +(items["rows"][i]["price2"].substring(1));
+      total1 += parseInt(items["rows"][i]["price1"].substring(1));
+      total2 += parseInt(items["rows"][i]["price2"].substring(1));
     }
 
 
