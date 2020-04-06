@@ -101,8 +101,8 @@ $(document).ready(function() {
       itemName1 = "ice_cream";
       itemName2 = "ice_cream_2";
     }
-    itemPrice1 = document.getElementsByClassName(itemName1)[0].innerHTML);
-    itemPrice2 = document.getElementsByClassName(itemName2)[0].innerHTML);
+    itemPrice1 = document.getElementsByClassName(itemName1)[0].innerHTML;
+    itemPrice2 = document.getElementsByClassName(itemName2)[0].innerHTML;
     addProduct(name, itemPrice1, itemPrice2); //Adds the product to the list of increases its total if present
     var data_string = JSON.stringify(data);
     localStorage.setItem("cart", data_string);
