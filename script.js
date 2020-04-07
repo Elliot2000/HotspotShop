@@ -1,4 +1,4 @@
-
+// Function that switches "an active tab" underline so the user knows which category he is on
 function codeAddress() {
   var tabUnder = document.getElementsByClassName("tabUnder");
   for (i = 0; i < tabUnder.length; i++) {
@@ -8,7 +8,7 @@ function codeAddress() {
   document.getElementById("Dairy").style.display = "block";
   document.getElementById("Dairy").className += " active";
 
-
+  // Closes all messages on pressing X
   $( ".close" ).click(function(event) {
       event.preventDefault();
       $( ".overlay" ).hide();
@@ -16,8 +16,10 @@ function codeAddress() {
     });
  }
 
+// Makes sure this function loads on startup
 window.onload = codeAddress;
 
+// Function which switches to different tabs
 function openTab(evt, tabName, tabNameUnder) {
   // Declare all variables
   var i, tabcontent, tablinks, tabUnder, tabUnderdiv;

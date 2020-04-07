@@ -1,9 +1,7 @@
+// Declaring all variables needed for webscraper to work
 var urlObject;
 var numberID;
 var price;
-
-
-
 
 var wa_skimmed_milk_2_url, wa_semi_skimmed_milk_2_url, wa_whole_milk_2_url, wa_gouda_url, wa_philadelphia_url;
 var wa_cheddar_url, wa_mozzarella_url, wa_greek_yogurt_url, wa_activia_url, wa_muller_url, wa_apple_url;
@@ -16,9 +14,11 @@ var as_cucumber_url, as_carrots_url, as_broccoli_url, as_mushroom_url, as_chips_
 var as_marg_pizza_url, as_pepp_pizza_url, as_fish_fingers_url, as_peas_url, as_ice_cream_url;
 
 
-
+// Function which starts on system start up
 $(document).ready(function() {
 
+
+// Setting the variable with settings to be allowed to do ajax call
   var settings = {
             'cache': false,
             'dataType': "json",
@@ -32,6 +32,7 @@ $(document).ready(function() {
             }
   }
 
+  // Ajax call which gets the json file and updates all the variables with stored prices before live data is gathered
   $.ajax(settings).done(function (response) {
       urlObject = JSON.stringify(response);
       $(".skimmed_milk_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
@@ -142,13 +143,14 @@ $(document).ready(function() {
   update();
 });
 
-
+// Update function which updates all prices to be live
 function update(){
+  // Shows the first message saying that all the data is being live gathered slowly
   $( ".overlay3" ).fadeIn( "slow").delay(3000).fadeOut("slow");
   var pricenum1, pricenum2;
   var error = false;
 
-
+  // Again, another settings for asda scraper
   var settings = {
             'cache': false,
             'dataType': "jsonp",
@@ -162,6 +164,7 @@ function update(){
             }
   }
 
+    // Again, another settings for waitrose scraper
   var settings2 = {
             'cache': false,
             'dataType': "jsonp",
@@ -175,9 +178,12 @@ function update(){
             }
   }
 
+  // Ajax call that allows to get the html of the item page on asda website
   $.ajax(settings).done(function (response) {
       alert(response);
       urlObject = JSON.stringify(response);
+
+      // Searching for specific text in html as this is where the price is
       numberID = urlObject.search('pdp-main-details__price">£');
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       try{
@@ -187,8 +193,11 @@ function update(){
       }
   });
 
+    // Ajax call that allows to get the html of the item page on waitrose website
   $.ajax(settings2).done(function (response) {
       urlObject = JSON.stringify(response);
+
+      // Searching for specific text in html as this is where the price is
       numberID = urlObject.search('<span>£');
       price = urlObject[numberID+6] + urlObject[numberID+7] + urlObject[numberID+8] + urlObject[numberID+9] + urlObject[numberID+10];
       if(price != "tents"){
@@ -202,7 +211,10 @@ function update(){
       }
   });
 
+
   if(error == true){
+
+      // If there was an error in getting any of the data live, local prices are used
       settings = {
               'cache': false,
               'dataType': "json",
@@ -221,7 +233,7 @@ function update(){
         pricenum1 = parseFloat(response["WAITROSE"]["skimmed_milk_2"]);
         pricenum2 = parseFloat(response["ASDA"]["skimmed_milk_2"]);
 
-
+        // Checking which price is higher to be used in "Between" statement on the website
       if(pricenum1 > pricenum2){
         $(".skimmed_milk_2").text("£" + response["ASDA"]["skimmed_milk_2"]);
         $(".skimmed_milk_2_2").text("£" + response["WAITROSE"]["skimmed_milk_2"]);
@@ -242,6 +254,7 @@ function update(){
     }
   }
 
+  // This is repeated for all the products
   settings = {
             'cache': false,
             'dataType': "jsonp",
@@ -2409,7 +2422,7 @@ function update(){
 };
 
 
-
+  // Funciton which closes the message after pressing X
 $( ".close" ).click(function(event) {
   event.preventDefault();
   $( ".overlay2" ).hide();

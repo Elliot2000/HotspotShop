@@ -3,9 +3,9 @@ var shopping_cart_pressed = 0;
 var data = {"total":0,"rows":[]};
 var margin = 0;
 var present = false;
-
 var itemName1, itemName2, itemPrice1, itemPrice2;
 
+// Main function ran on startup
 $(document).ready(function() {
 
   // Checking if local storage exists and if it has item called cart
@@ -15,19 +15,26 @@ $(document).ready(function() {
     var cart = localStorage.getItem('cart');
     var totalItems = parseInt(localStorage.getItem('totalItems'), 10);
 
+    // Changing total items count to the total amount of items that are in the basket
     $(".totalCount").text(totalItems);
 
-    // Parse JSON data from local storage so it can be display in the cart and display it in carts
+    // Parse JSON data from local storage so it can be displayed it in carts
     var items = JSON.parse(cart);
     data = items;
   }else{
+
+    // If it doesn't have any local storage then set the items to 0
     $(".totalCount").text(0);
   }
 
-  // Gets the name and the price of the item and adds it to the cart as well as updates local storage with it too
+  // The function which is ran when the user presses the add button next to the item
   $( ".action-add" ).click(function(event, source) {
-      present = false;
+    present = false;
+
+    //The function first gets the name of the item selected
     var name = $(this).attr("name_data");
+
+    // Then it adds one to the quantity of the item and updates the text too
     if(name == "Skimmed Milk 2.2L"){
       itemName1 = "skimmed_milk_2";
       itemName2 = "skimmed_milk_2_2";
@@ -125,27 +132,36 @@ $(document).ready(function() {
       itemName2 = "ice_cream_2";
       $(".ice_cream_quantity").text(1 + parseInt(document.getElementsByClassName("ice_cream_quantity")[0].innerHTML));
     }
+
+    // Then the price of the item is also gathered and added to the cart as well
     itemPrice1 = document.getElementsByClassName(itemName1)[0].innerHTML;
     itemPrice2 = document.getElementsByClassName(itemName2)[0].innerHTML;
-    addProduct(name, itemPrice1, itemPrice2); //Adds the product to the list of increases its total if present
+    addProduct(name, itemPrice1, itemPrice2);
     var data_string = JSON.stringify(data);
+
+    // Lastly local storage is updated too as well as the total item count
     localStorage.setItem("cart", data_string);
     var cartItems = parseInt($('.totalCount').text(), 10);
     localStorage.setItem("totalItems", cartItems+1);
     $(".totalCount").text(localStorage.getItem('totalItems'));
   });
 
-    // Gets the name and the price of the item and subtracts it from the cart as well as updates local storage with it too
+    // The function which gets the name and the price of the item and subtracts it from the cart as well as updates local storage with it too
   $( ".action-sub" ).click(function(event, source) {
       present = false;
     var name = $(this).attr("name_data");
-    subProduct(name); //Adds the product to the list of increases its total if present
+
+    // Once the name is gathered, the subProduct function is called to remove the item from the cart
+    subProduct(name);
+
+    // After that the local storage is updated
     var data_string = JSON.stringify(data);
     localStorage.setItem("cart", data_string);
     var cartItems = parseInt($('.totalCount').text(), 10);
     if(present === true){
         localStorage.setItem("totalItems", cartItems-1); //Will subtract the cart total only if the item is present
 
+        // Once the item is removed from the local storage, the quantity of the item is also updated
         if(name == "Skimmed Milk 2.2L"){
           $(".skimmed_milk_2_quantity").text(parseInt(document.getElementsByClassName("skimmed_milk_2_quantity")[0].innerHTML - 1));
         }else if (name == "Semi Milk Skimmed 2.2L"){
@@ -200,6 +216,7 @@ $(document).ready(function() {
   });
 
 
+  // Once the compare button is pressed, the script checks if there are items in the basket. If so it moves to the comparison page, if not it displays one of the messages for the user to choose an item.
   $( ".letsCompare" ).click(function(event, source) {
     var cartItems = parseInt($('.totalCount').text(), 10);
     if (cartItems > 0){
@@ -212,7 +229,7 @@ $(document).ready(function() {
       }
     });
 
-
+    // If the close button is pressed on the message, the message will close automatically
   $( ".close" ).click(function(event) {
     event.preventDefault();
     $( ".overlay" ).hide();
@@ -246,15 +263,18 @@ function addProduct(name, itemPriceOne, itemPriceTwo){
   add();
 }
 
+// Function which removes the product to the cart
 function subProduct(name){
   'use strict';
   function sub(){
     for(var i=0; i<data.total; i++){
       var row = data.rows[i];
       if (row.name === name){
+        // If the name is the same of the product, remove one from the quantity instead of removing the product
         row.quantity -= 1;
         present = true;
       }
+      // Push the changes to the data
         if(row.quantity < 1){
             data.rows.pop(row);
             data.total -=1;

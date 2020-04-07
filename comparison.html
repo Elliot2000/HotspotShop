@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Head of the document where I am including all the scripts, styles files and a title-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
         <script src="cart.js"></script>
         <script src="comparison.js"></script>
+        <title> Hotspot Shop - Full comparison done! </title>
     </head>
 <body>
 
+<!-- This is the main title where the user finds out exactly how much they will save going to one shop or the other -->
   <div class="savingTitle">
     <br><br><span class="savingText" >Well done! You can save up to £<span class="totalSaving">0</span> when shopping with us!</span>
   </div>
 
+<!-- Break in the page to allow for positioning -->
 <div class="break"></div>
 
+  <!-- The title of the both supermarkets that are being compared -->
   <div class="ItemListTitle">
       <div id="Supermarket1" class="supermarketTab">Waitrose</div>
       <div id="Supermarket2" class="supermarketTab">Asda</div>
   </div>
 
+<!-- This is the list where the items appear, the items are added dinamically which is why theres nothing here -->
 <div class="ActualList">
 </div>
 
-
+<!-- The end of the table which shows the total price of the user were to go with either of the shops -->
   <div class="TotalList">
       <div id="TotalCost1" class="TotalTab">£<span class="priceTotal1" >0</span></div>
       <div id="TotalCost2" class="TotalTab">£<span class="priceTotal2" >0</span></div>
   </div>
 
+<!-- Simple button that allows to see the total number of items as well as go back to the main item selection -->
 <div class="goBack">
   <br><span class="TotalText" >Total number of items: <span class="totalCount">0</span></span>
   <a href="index.html" ><div class="goBackButton"><br>Go back</div></a>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Head of the document where I am including all the scripts, styles files and a title-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript" src="script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,36 @@
         <script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
         <script src="cart.js"></script>
         <script type="text/javascript" src="webscraper.js"></script>
+        <title>Hotspot Shop Compare - Compare with us and save money!</title>
     </head>
 <body>
 
+<!-- Two messages, one is displayed only if the user doesn't choose anything but wants to compare, second is displayed at startup  -->
 <div class="overlay"><a class="close">✖</a>Warning!<div class="second_line"> <br>You haven't chosen items to be compared!</div></div>
 <div class="overlay3"><a class="close">✖</a><br>Gathering live data from the websites, please wait!</div>
 
+<!-- Container which contains tabs for user to choose the category  -->
 <div class="container">
     <div class="tab" onclick="openTab(event, 'Dairy', 'DairyUnder')"> Dairy </div>
     <div class="tab" onclick="openTab(event, 'Fruits', 'FruitsUnder')"> Fruits & Veg </div>
     <div class="tab" onclick="openTab(event, 'Frozen', 'FrozenUnder')"> Frozen Food </div>
 </div>
 
+<!-- This is the tab under the tabs to allow the user to see which tab they have open  -->
 <div class="containerUnderline">
     <div id="DairyUnder" class="tabUnder"></div>
     <div id="FruitsUnder" class="tabUnder"></div>
     <div id="FrozenUnder" class="tabUnder"></div>
 </div>
 
+<!-- This is the bar displayed at the bottom of the screen which shows the amount of items chosen and button allowing the user to start the comparison  -->
 <div class="compareButton">
   <br><span class="compareText" >Total number of items: <span class="totalCount">0</span></span>
   <img class="letsCompare" src="assets/compare.png" />
 </div>
 
+
+<!-- This is the first tab with all the items under Dairy section  -->
 <div id="Dairy" class="itemContainer">
   <div class="item"> Skimmed Milk 2.2L <input name_data="Skimmed Milk 2.2L" class="action-add" type="image" src="assets/plus.png" /><span class="skimmed_milk_2_quantity quantityCount">0</span><input name_data="Skimmed Milk 2.2L" class="action-sub" type="image" src="assets/minus.png" /><img src="assets/Dairy/2.2l-skimmed-milk.png"/><br><span class="lowerLine">Between <span class="skimmed_milk_2">Error</span> and <span class="skimmed_milk_2_2">Error</span></span></div>
   <div class="item"> Semi Skimmed Milk 2.2L <input name_data="Semi Milk Skimmed 2.2L" class="action-add" type="image" src="assets/plus.png" /><span class="semi_skimmed_milk_2_quantity quantityCount">0</span><input name_data="Semi Milk Skimmed 2.2L" class="action-sub" type="image" src="assets/minus.png" /><img src="assets/Dairy/2.2l-semi-skimmed-milk.png" /><br><span class="lowerLine">Between <span class="semi_skimmed_milk_2">Error</span> and <span class="semi_skimmed_milk_2_2">Error</span></span></div>
@@ -45,6 +53,7 @@
   <div class="itembottom">  </div>
 </div>
 
+<!-- This is the second tab with all the items under Fruits section  -->
 <div id="Fruits" class="itemContainer">
   <div class="item"> Apple (individual) <input name_data="Apple" class="action-add" type="image" src="assets/plus.png" /><span class="apple_quantity quantityCount">0</span><input name_data="Apple" class="action-sub" type="image" src="assets/minus.png" /><img src="assets/FruitVeg/apple.png" /><br><span class="lowerLine">Between <span class="apple">Error</span> and <span class="apple_2">Error</span></span></div>
   <div class="item"> Banana (individual) <input name_data="Banana" class="action-add" type="image" src="assets/plus.png" /><span class="banana_quantity quantityCount">0</span><input name_data="Banana" class="action-sub" type="image" src="assets/minus.png" /><img src="assets/FruitVeg/banana.png" /><br><span class="lowerLine">Between <span class="banana">Error</span> and <span class="banana_2">Error</span></span></div>
@@ -56,6 +65,7 @@
   <div class="itembottom">  </div>
 </div>
 
+<!-- This is the third and last tab with all the items under Frozen section  -->
 <div id="Frozen" class="itemContainer">
   <div class="item"> Frozen Chips <input name_data="Frozen Chips" class="action-add" type="image" src="assets/plus.png" /><span class="chips_quantity quantityCount">0</span><input name_data="Frozen Chips" class="action-sub" type="image" src="assets/minus.png" /><img src="assets/Frozen/chips.png" /><br><span class="lowerLine">Between <span class="chips">Error</span> and <span class="chips_2">Error</span></span></div>
   <div class="item"> Yorkshire Puddings <input name_data="Yorkshire Puddings" class="action-add" type="image" src="assets/plus.png" /><span class="york_puddings_quantity quantityCount">0</span><input name_data="Yorkshire Puddings" class="action-sub" type="image" src="assets/minus.png" /><img src="assets/Frozen/yorkshirepuddings.png" /><br><span class="lowerLine">Between <span class="york_puddings">Error</span> and <span class="york_puddings_2">Error</span></span></div>
