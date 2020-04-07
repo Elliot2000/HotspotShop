@@ -2,6 +2,21 @@ var urlObject;
 var numberID;
 var price;
 
+
+
+
+var wa_skimmed_milk_2_url, wa_semi_skimmed_milk_2_url, wa_whole_milk_2_url, wa_gouda_url, wa_philadelphia_url;
+var wa_cheddar_url, wa_mozzarella_url, wa_greek_yogurt_url, wa_activia_url, wa_muller_url, wa_apple_url;
+var wa_banana_url, wa_orange_url, wa_cucumber_url, wa_carrots_url, wa_broccoli_url, wa_mushroom_url;
+var wa_chips_url, wa_york_puddings_url, wa_marg_pizza_url, wa_pepp_pizza_url, wa_fish_fingers_url, wa_peas_url, wa_ice_cream_url;
+
+var as_skimmed_milk_2_url, as_semi_skimmed_milk_2_url, as_whole_milk_2_url, as_gouda_url, as_philadelphia_url;
+var as_cheddar_url, as_mozzarella_url, as_greek_yogurt_url, as_activia_url, as_muller_url, as_apple_url, as_banana_url, as_orange_url;
+var as_cucumber_url, as_carrots_url, as_broccoli_url, as_mushroom_url, as_chips_url, as_york_puddings_url;
+var as_marg_pizza_url, as_pepp_pizza_url, as_fish_fingers_url, as_peas_url, as_ice_cream_url;
+
+
+
 $(document).ready(function() {
 
   var settings = {
@@ -129,7 +144,7 @@ $(document).ready(function() {
 
 
 function update(){
-  $( ".overlay3" ).fadeIn( "slow");
+  $( ".overlay3" ).fadeIn( "slow").delay(3000).fadeOut("slow");
   var pricenum1, pricenum2;
   var error = false;
 
@@ -2390,11 +2405,6 @@ function update(){
         $(".ice_cream").text("£" + pricenum2);
       }
     }
-
-
-
-
-  $( ".overlay3" ).delay(3000).fadeOut("slow");
 
 };
 
