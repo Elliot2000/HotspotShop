@@ -17,12 +17,12 @@ $(document).ready(function() {
     data = items;
 
 
-    for (i = 0; i < totalItems; i++) {
+    for (i = 0; i < items["total"]; i++) {
       addRow(items["rows"][i]["name"], items["rows"][i]["quantity"], items["rows"][i]["price1"], items["rows"][i]["price2"]);
       total1 += parseInt(items["rows"][i]["price1"].substring(1));
       total2 += parseInt(items["rows"][i]["price2"].substring(1));
-    }
 
+    }
 
     $(".priceTotal1").text(total1);
     $(".priceTotal2").text(total2);
