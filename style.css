@@ -79,7 +79,7 @@ h1 {
   font-family: Arial;
 }
 
-.item span{
+ .lowerLine{
   font-size: 12px;
 }
 
@@ -108,7 +108,7 @@ h1 {
   width: 30px;
   height: 30px;
   float: right;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .compareButton {
@@ -144,7 +144,8 @@ h1 {
 }
 .quantityCount{
   float: right;
-  margin-right: 35px;
+  margin-right: 10px;
+  font-size: 30px;
 }
 
 
