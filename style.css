@@ -142,6 +142,10 @@ h1 {
   font-family: arial;
   font-size: 30px;
 }
+.quantityCount{
+  float: right;
+  margin-right: 35px;
+}
 
 
 
