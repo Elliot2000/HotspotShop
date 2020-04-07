@@ -19,13 +19,13 @@ $(document).ready(function() {
 
     for (i = 0; i < items["total"]; i++) {
       addRow(items["rows"][i]["name"], items["rows"][i]["quantity"], items["rows"][i]["price1"], items["rows"][i]["price2"]);
-      total1 += parseFloat(items["rows"][i]["price1"].substring(1));
-      total2 += parseFloat(items["rows"][i]["price2"].substring(1));
+      total1 += parseFloat(items["rows"][i]["price1"].substring(1)) * parseInt(items["rows"][i]["quantity"]);
+      total2 += parseFloat(items["rows"][i]["price2"].substring(1)) * parseInt(items["rows"][i]["quantity"]);
 
     }
 
-    $(".priceTotal1").text(total1);
-    $(".priceTotal2").text(total2);
+    $(".priceTotal1").text(Math.round((total1 + Number.EPSILON) * 100) / 100);
+    $(".priceTotal2").text(Math.round((total2 + Number.EPSILON) * 100) / 100);
 
   }else{
     $(".totalCount").text(0);
