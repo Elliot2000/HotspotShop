@@ -27,6 +27,13 @@ $(document).ready(function() {
     $(".priceTotal1").text(Math.round((total1 + Number.EPSILON) * 100) / 100);
     $(".priceTotal2").text(Math.round((total2 + Number.EPSILON) * 100) / 100);
 
+    if(total1 > total2){
+      $(".totalSaving").text(Math.round(((total1-total2) + Number.EPSILON) * 100) / 100);
+    }else{
+      $(".totalSaving").text(Math.round(((total2-total1) + Number.EPSILON) * 100) / 100);
+    }
+
+
   }else{
     $(".totalCount").text(0);
   }
