@@ -1,4 +1,4 @@
-<div style="text-align:center"># HotspotShop </div>
+# HotspotShop
 **An app that allows you to compare groceries between supermarkets.**
 
 Build originally for TSE (Team Software Engineering) module for a university project, the android app allows you to compare basic groceries' prices between Waitrose and Asda. It gives you an estimate how much you can save by going to one or the other supermarket. The app is written for Android in Java however the actual comparison and displaying of the items is done as a web application in HTML, CSS & JS.  
